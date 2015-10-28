@@ -28,7 +28,7 @@ html,body {
   position: absolute;
   height: 450px;
   line-height: 425px;
-  top: 120px;
+  top: 100px;
   z-index: 5;
 }
 
@@ -50,7 +50,7 @@ html,body {
   font-size:18px;
   margin-left: 135px;
   margin-right: 135px;
-  height: 500px;
+  overflow: scroll;
   position: relative;
   top: 600px;
 }
@@ -100,7 +100,7 @@ h1 {
 
 #follow-me {
   position: relative;
-  top: 500px;
+  top: 600px;
 
 }
 
