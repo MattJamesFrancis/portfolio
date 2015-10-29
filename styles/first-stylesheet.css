@@ -85,6 +85,7 @@ h1 {
   line-height: normal;
 }
 #content {
+  color: #4f4141;
   position: relative;
   font-size:15px;
   overflow: scroll;

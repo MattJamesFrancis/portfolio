@@ -87,6 +87,7 @@ h1 {
 }
 
 #content {
+  color: #4f4141;
   position: relative;
   font-size:17px;
   overflow: scroll;
