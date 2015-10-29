@@ -91,6 +91,8 @@ h1 {
   position: relative;
   font-size:19px;
   overflow: scroll;
+  -moz-overflow: scroll;
+  -webkit-overflow: scroll;
   top: 450px;
   width: 600px;
   margin-bottom: 155px;
