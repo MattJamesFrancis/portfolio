@@ -35,7 +35,7 @@ nav ul a {
   word-spacing: -.15rem;
   float: right;
   position: relative;
-  bottom: 2.9rem;
+  bottom: 2.45rem;
   right: 1rem;
 }
 
@@ -69,7 +69,8 @@ nav ul a {
   z-index: 5;
 }
 
-h1 {
+.home a {
+  text-decoration: none;
   vertical-align: middle;
   display: inline-block;
   line-height: normal;
