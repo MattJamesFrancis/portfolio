@@ -19,13 +19,13 @@ header {
   box-shadow: 0 -10px 35px #777777;
 }
 
-nav ul li {
+nav ol li {
   text-decoration: none;
   display: inline;
   list-style-type: none;
 }
 
-nav ul a {
+nav ol a {
   text-decoration: none;
   color: #4a3f45;
   padding: 1rem;
@@ -39,7 +39,7 @@ nav ul a {
   right: 1rem;
 }
 
- nav ul a:hover {
+ nav ol a:hover {
   -webkit-transition: -webkit-transform 0.9s ease;
   -moz-transition: -moz-transform 0.9s ease;
   -o-transition: -o-transform: 0.9s ease;
@@ -80,7 +80,7 @@ nav ul a {
   font-size: 1rem;
   margin-top: 0;
   position: relative;
-  top: .8rem;
+  top: .65rem;
   left: 1rem;
 }
 .vpd {
