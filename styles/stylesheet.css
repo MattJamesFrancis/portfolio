@@ -1,0 +1,129 @@
+html,body {
+  margin: 0 0 0 0;
+  background-color: white;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border: 0;
+  margin: 0 0 0 0;
+  background-color: white;
+  min-width: 57rem;
+  width: 100%;
+  height: 10rem;
+  z-index: 10;
+  -moz-box-shadow: 0 0 25px #777777;
+  -webkit-box-shadow: 0 0 25px #777777;
+  box-shadow: 0 -10px 35px #777777;
+}
+
+nav ol li {
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+}
+
+nav ol a {
+  text-decoration: none;
+  color: #4a3f45;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .33rem;
+  font-size: .66rem;
+  word-spacing: -.15rem;
+  float: right;
+  position: relative;
+  bottom: 2.45rem;
+  right: 1rem;
+}
+
+
+h1 a {
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: #4a3f45;
+  font-size: 2rem;
+  margin-top: 0;
+  position: relative;
+  top: .65rem;
+  left: 1rem;
+}
+
+.fullscreen-banner {
+  position: relative;
+  top: 10rem;
+  height: 40rem;
+  background-image: url(../images/main-logo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+article {
+  color: #4f4141;
+  position: relative;
+  line-height: 2.5rem;
+  top: 12rem;
+  text-align: justify;
+}
+
+article h2 {
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+article p {
+  padding-bottom: 9rem;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  height: 10rem;
+  bottom: 0;
+  -webkit-position: fixed;
+  -moz-position: fixed;
+  position: fixed;
+  text-align: center;
+  -moz-box-shadow: 0 0 25px #777777;
+  -webkit-box-shadow: 0 0 25px #777777;
+  box-shadow: 0 10px 35px #777777;
+}
+
+section h3 {
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  font-size: .75rem;
+  text-align: center;
+}
+
+section ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  padding: .5rem;
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+}
+
+.social-media img {
+  max-width: 30px;
+}
+
+footer p { 
+  font-size: .75rem;
+  letter-spacing: .25rem;
+}
+
