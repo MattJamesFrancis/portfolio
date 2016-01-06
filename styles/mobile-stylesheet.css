@@ -1,6 +1,6 @@
 html,body {
   margin: 0 0 0 0;
-  background-color: white;
+  background-color: black;
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
@@ -9,27 +9,21 @@ header {
   top: 0;
   border: 0;
   margin: 0 0 0 0;
-  background-color: white;
+  background-color: black;
   width: 100%;
-  height: 8rem;
+  height: 15rem;
   z-index: 10;
   -moz-box-shadow: 0 0 25px #777777;
   -webkit-box-shadow: 0 0 25px #777777;
   box-shadow: 0 -10px 35px #777777;
 }
 
-h1 a {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  bottom: .6rem;
-  text-decoration: none;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  color: #4a3f45;
-  font-size: 1.25rem;
+header img {
+  display: block;
+  margin: auto;
+  width: 235px
 }
+
 
 nav ul li {
   text-decoration: none;
@@ -52,39 +46,39 @@ nav ul a {
 }
 
 .fullscreen-banner {
-  margin: 10px;
   position: relative;
-  top: 7rem;
-  height: 40rem;
-  background-image: url(../images/main-logo.jpg);
+  top: 15rem;
+  height: 40vw;
+  background-image: url(../images/stonewall-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 6px solid #c7bfc2;
 }
 .video-grid {
-  margin: 10px;
-  background-color: #4f4141;
-  color: #4f4141;
   position: relative;
+<<<<<<< HEAD
   line-height: 2.5rem;
   top: 10rem;
   text-align: justify;
   margin-bottom: 20rem;
   border: 6px solid #c7bfc2;
+=======
+  top: 16rem;
+  margin-bottom: 12rem;
+>>>>>>> master
 }
 
-.thumbnail {
-  margin-top: 20px;
-} 
+.video-grid img {
+  margin-top: 3rem;
+}
 
 .grid-title h2 {
   position: relative;
   text-align: center;
-  top: 8rem;
+  top: 16.5rem;
   letter-spacing: 8px;
   text-transform: uppercase;
-  color: #4a3f45;
+  color: #bfbfbf;
   font-size: 2rem;
 }
 
@@ -96,8 +90,12 @@ nav ul a {
   font-style: italic;
 }
 
+.mobile {
+  display: none;
+}
+
 footer {
-  background-color: white;
+  background-color: black;
   width: 100%;
   height: 10rem;
   bottom: 0;
@@ -113,8 +111,9 @@ footer {
 footer section h3 {
   letter-spacing: .5rem;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
+  color: #bfbfbf;
 }
 
 section ul {
@@ -130,14 +129,15 @@ section ul {
   list-style-type: none;
 }
 
-.social-media img {
-  max-width: 30px;
+.social-media i {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #494949;
+
 }
 
 footer p { 
-  position: relative;
-  bottom: -1rem;
-  font-size: 1rem;
-  letter-spacing: .25rem;
+ display: none;
 }
 

@@ -41,7 +41,7 @@ nav ul a {
 .fullscreen-banner {
   position: relative;
   top: 15rem;
-  height: 55rem;
+  height: 47rem;
   background-image: url(../images/stonewall-1.jpg);
   background-size: cover;
   background-position: center;
@@ -70,6 +70,33 @@ nav ul a {
 .video-grid img {
   position: relative;
   margin-top: 2.75rem;
+}
+
+.thumb p {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .7rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.overlay {
+  transition: opacity .5s;
+  background-color: black;
+}
+
+.thumb:hover p {
+  opacity: 1;
+}
+
+.overlay:hover {
+  opacity: .5;
 }
 
 

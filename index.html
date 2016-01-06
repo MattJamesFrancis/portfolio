@@ -14,9 +14,15 @@
     <!-- Minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     
+    <!-- Font Awesome Link -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
     <!-- Overide Bootstrap Defaults -->
     <link rel="stylesheet" media="screen and (max-width: 767px)" href="styles/mobile-stylesheet.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="styles/stylesheet.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="styles/stylesheet-s.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="styles/stylesheet-m.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="styles/stylesheet.css">
   
     <title>Samuel Harrison Wolfe - Portfolio</title>
   </head>
@@ -24,11 +30,12 @@
   <body>
     <header>
       <!-- logo, name of site, nav, -->
-      <h1><a href="index.html">Samuel Harrison Wolfe</a></h1>
+      <a href="index.html"><img src="images/website-logo.png"></a>
         <nav>
           <ul>
-            <li><a href="get-in-touch.html">Get In Touch</a></li>
-            <li><a href="about-me.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+               <li><a href="resume.html">Resume</a></li>
             <li><a href="projects.html">Projects</a></li>
           </ul>
         </nav>
@@ -45,36 +52,62 @@
     
     <section class="video-grid">
       <div class="container">
-        <div class="col-sm-4">
-          <div class="thumbnail">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/97579831?title=0" allowfullscreen></iframe>
-            </div>
-          <h3>VACANT</h3>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        
+          <div class="col-sm-12">
+              <img src="images/vacant-2.jpg" class="img-responsive">
           </div>
+        
+    <!-- Don't Display In Mobile -->
+        
+      <div class="mobile">
+    
+        <div class="col-sm-6">
+          <img src="images/vacant-1.jpg" class="img-responsive">
+          </div>
+        
+        <div class="col-sm-6">
+          <img src="images/vacant-3.jpg" class="img-responsive">
+          </div>
+        
+        <div class="col-sm-12">
+          <img src="images/vacant-4.jpg" class="img-responsive">
         </div>
         
-        <div class="col-sm-4">
-          <div class="thumbnail">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/99594625?title=0" allowfullscreen></iframe>
-            </div>
-          <h3>Reel</h3>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-sm-6">
+          <img src="images/vacant-5.jpg" class="img-responsive">
         </div>
         
-        <div class="col-sm-4">
-          <div class="thumbnail">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/81447760?title=0" allowfullscreen></iframe>
-            </div>
-          <h3>STONEWALL</h3>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+        <div class="col-sm-6">
+          <img src="images/vacant-6.jpg" class="img-responsive">
         </div>
+      
       </div>
+        
+        <div class="col-sm-12">
+          <img src="images/over-under-1.jpg" class="img-responsive">
+        </div>
+        
+    <!-- Don't Display In Mobile -->
+        
+      <div class="mobile">
+        
+        <div class="col-sm-6">
+          <img src="images/over-under-2.jpg" class="img-responsive">
+        </div>
+        
+        <div class="col-sm-6">
+          <img src="images/over-under-3.jpg" class="img-responsive">
+        </div>
+        
+        <div class="col-sm-12">
+          <img src="images/over-under-4.jpg" class="img-responsive">
+        </div>
+        
+      </div>
+        
+      </div>
+    
+
     </section>
   
     
@@ -92,27 +125,33 @@
           <ul class="social-media">
             <li>
               <a href="https://facebook.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/facebook.png" alt="Facebook Link"></a>
+                <i class="fa fa-facebook"></i>
+              </a>
             </li>
             <li>
               <a href="https://twitter.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/twitter.png" alt="Twitter Link"></a>
+                <i class="fa fa-twitter"></i>
+              </a>
             </li>
             <li>
               <a href="https://vimeo.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/vimeo.png" alt="Vimeo Link"></a>
+                <i class="fa fa-vimeo"></i>
+              </a>
             </li>
             <li>
               <a href="https://instagram.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/instagram.png" alt="Instagram Link"></a>
+                <i class="fa fa-instagram"></i>
+              </a>
             </li>
             <li>
               <a href="https://linkedin.com/in/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/linkedin.png" alt="LinkedIn Link"></a>
+                <i class="fa fa-linkedin"></i>
+              </a>
             </li>
             <li>
               <a href="https://github.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/github.png" alt="GitHub Link"></a>
+                <i class="fa fa-github"></i>
+              </a>
             </li>
          </ul>
       </section>

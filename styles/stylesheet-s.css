@@ -18,6 +18,12 @@ header {
   box-shadow: 0 -10px 35px #777777;
 }
 
+header img {
+  position: relative;
+  left: 6rem;
+  width: 235px
+}
+
 nav ul li {
   text-decoration: none;
   display: inline;
@@ -41,7 +47,7 @@ nav ul a {
 .fullscreen-banner {
   position: relative;
   top: 15rem;
-  height: 55rem;
+  height: 38rem;
   background-image: url(../images/stonewall-1.jpg);
   background-size: cover;
   background-position: center;
@@ -52,7 +58,7 @@ nav ul a {
 .grid-title h2 {
   position: relative;
   text-align: center;
-  top: 14rem;
+  top: 16rem;
   letter-spacing: 8px;
   text-transform: uppercase;
   color: #bfbfbf;
@@ -70,6 +76,33 @@ nav ul a {
 .video-grid img {
   position: relative;
   margin-top: 2.75rem;
+}
+
+.thumb p {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .7rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.overlay {
+  transition: opacity .5s;
+  background-color: black;
+}
+
+.thumb:hover p {
+  opacity: 1;
+}
+
+.overlay:hover {
+  opacity: .5;
 }
 
 
