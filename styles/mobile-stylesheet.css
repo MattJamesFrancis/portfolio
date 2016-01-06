@@ -56,16 +56,12 @@ nav ul a {
 }
 .video-grid {
   position: relative;
-<<<<<<< HEAD
   line-height: 2.5rem;
   top: 10rem;
   text-align: justify;
   margin-bottom: 20rem;
-  border: 6px solid #c7bfc2;
-=======
   top: 16rem;
   margin-bottom: 12rem;
->>>>>>> master
 }
 
 .video-grid img {
