@@ -59,8 +59,14 @@ nav ul a {
   line-height: 2.5rem;
   top: 10rem;
   text-align: justify;
+<<<<<<< HEAD
   top: 16rem;
   padding-bottom: 15rem;
+=======
+  margin-bottom: 20rem;
+  top: 16rem;
+  margin-bottom: 17rem;
+>>>>>>> master
 }
 
 .video-grid img {
