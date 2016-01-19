@@ -15,6 +15,19 @@ header {
   z-index: 10;
 }
 
+.navbar {
+  background-color: #181815;
+}
+.navbar-collapse {
+  background-color: #181815;
+  border: 0;
+}
+
+button {
+  position: fixed;
+  top: 1.7rem;
+}
+
 nav ul li {
   text-decoration: none;
   display: none;
@@ -40,6 +53,7 @@ video {
 }
 
 .fullscreen-banner {
+  display: none;
   position: relative;
   top: 8rem;
   height: 60vw;
@@ -51,7 +65,7 @@ video {
 .video-grid {
   position: relative;
   line-height: 2.5rem;
-  top: 6rem;
+  top: 16rem;
   text-align: justify;
   padding-bottom: 15rem;
   margin-bottom: 20rem;
@@ -65,7 +79,7 @@ video {
 .grid-title h2 {
   position: relative;
   text-align: center;
-  top: 8rem;
+  top: 12rem;
   letter-spacing: 8px;
   text-transform: uppercase;
   color: #bfbfbf;
