@@ -88,7 +88,7 @@ video {
   
 .greeting-video-grid {
   height: 700px;
-  margin-top: -475px;;
+  margin-top: -475px;
   background-color: white;
   position: relative;
   vertical-align: middle;
@@ -124,8 +124,6 @@ video {
 .welcome {
   margin-bottom: 65px;
 }
-  
-
   
 .featured-projects-section {
   padding: 0;
@@ -249,9 +247,9 @@ footer p {
 
 @media only screen and (min-width: 992px) {
   
-  .vid_container {
+.vid_container {
   position: relative;
-  top: -125px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,12 +258,29 @@ footer p {
   overflow: hidden;
 }
   
-  .video-grid {
-  background-color: white;
-  height: 355px;
+#logo {
   position: relative;
-  top: -165px;
+  top: -500px;
+  z-index: 30;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+  
+  
+.greeting-video-grid {
+  background-color: white;
+  height: 700px;
+  margin-top: -470px;
   vertical-align: middle;
+}
+  
+.welcome-container {
+  padding-right: 130px;
+  padding-left: 130px;
 }
 
 
@@ -273,9 +288,9 @@ footer p {
 
 @media only screen and (min-width: 1200px) {
   
-  .vid_container {
+.vid_container {
   position: relative;
-  top: -125px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,12 +299,29 @@ footer p {
   overflow: hidden;
 }
   
-  .video-grid {
-  background-color: white;
-  height: 355px;
+#logo {
   position: relative;
-  top: -165px;
+  top: -550px;
+  z-index: 30;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+  
+  
+.greeting-video-grid {
+  background-color: white;
+  height: 750px;
+  margin-top: -470px;
   vertical-align: middle;
+}
+  
+.welcome-container {
+  padding-right: 230px;
+  padding-left: 230px;
 }
   
 /* For mobile screens */
