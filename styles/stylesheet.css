@@ -24,6 +24,13 @@ header {
   height: 8rem;
   float: none;
 }
+  
+.nav-container img {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  height: 75px;
+}
 
 .navbar {
   position: relative;
@@ -55,17 +62,16 @@ header {
   float: none;
   display: inline-block;
   font-size: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .3rem;
 }
-
-
+  
 .vid_container {
   position: relative;
-  top: -100px;
+  top: -125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +79,23 @@ header {
   height: 435px;
   overflow: hidden;
 }
+  
+#logo {
+  z-index: 30;
+  position: relative;
+  top: -535px;
+  height: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+  
+#logo img {
+  height: 150px;
+}
+  
 
 video {
   position: relative;
@@ -84,7 +107,7 @@ video {
   height: 655px;
   position: relative;
   margin-bottom: 250px;
-  top: -165px;
+  top: -540px;
   vertical-align: middle;
 }
 
@@ -154,7 +177,7 @@ video {
 
 .icons {
   position: relative;
-  top: -415px;
+  top: -870px;
   text-align: center;
   background-color: #b7a85c;
   width: 100%;
@@ -184,8 +207,7 @@ section ul {
 }
 
 footer {
-  position: relative;
-  top: -420px;
+  position: fixed;
   height: 200px;
   background-color: #1a1a1a;
 }
@@ -231,7 +253,7 @@ footer p {
   
   .vid_container {
   position: relative;
-  top: -100px;
+  top: -125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,7 +278,7 @@ footer p {
   
   .vid_container {
   position: relative;
-  top: -100px;
+  top: -125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,5 +295,9 @@ footer p {
   top: -165px;
   vertical-align: middle;
 }
+  
+/* For mobile screens */
+  
+@media only screen and (min-width: 0px) 
 
 
