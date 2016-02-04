@@ -77,44 +77,47 @@ video {
   position: relative;
   width: 100%;
 }
-
-.grid-title {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: -90px;
-  z-index: 5;
-}
-
-.grid-title h2 {
-  letter-spacing: 8px;
-  text-transform: uppercase;
-  color: black;
-  font-size: 1.5rem;
-}
-
-
-.video-grid {
+  
+.greeting-video-grid {
   background-color: white;
-  height: 775px;
+  height: 655px;
   position: relative;
   margin-bottom: 250px;
   top: -165px;
   vertical-align: middle;
 }
 
-.container {
-  position: relative;
-  top: 75px;
+.greeting-video-grid p {
+  font-family: 'Source Code Pro';
+  font-size: 1.7rem;
+  letter-spacing: .1rem;
+  line-height: 2rem;
 }
 
-
-.video-grid img {
+.greeting-video-grid h2 {
+  text-align: center;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5rem;
+  padding-top: 40px;
+}
+  
+.container {
+  padding-right: 0;
+  padding-left: 0;
   position: relative;
-  margin-top: 2.75rem;
+  top: 15px;
+}
+  
+.featured-projects {
+  position: relative;
+  top: -30px;
+}
+  
+.container img {
+  position: relative;
+  top:15px;
 }
 
 .thumb p {
@@ -231,8 +234,17 @@ footer p {
   width: 100%;
   height: 535px;
   overflow: hidden;
-  
 }
+  
+  .video-grid {
+  background-color: white;
+  height: 355px;
+  position: relative;
+  margin-bottom: 250px;
+  top: -165px;
+  vertical-align: middle;
+}
+
 
 /* For large sized desktop screens 1200px and above */
 
@@ -248,4 +260,14 @@ footer p {
   height: 635px;
   overflow: hidden;
 }
+  
+  .video-grid {
+  background-color: white;
+  height: 355px;
+  position: relative;
+  margin-bottom: 250px;
+  top: -165px;
+  vertical-align: middle;
+}
+
 
