@@ -21,7 +21,7 @@ header {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 0;
+  top: 15px;
   background: none;
   border: none;
 }
@@ -86,8 +86,8 @@ video {
   width: 100%;
 }
   
-.greeting-video-grid {
-  height: 700px;
+.main-content {
+  height: 800px;
   margin-top: -475px;
   background-color: white;
   position: relative;
@@ -95,7 +95,7 @@ video {
   margin-bottom: 250px;
 }
 
-.greeting-video-grid p {
+.main-content p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.7rem;
@@ -103,7 +103,7 @@ video {
   line-height: 2.5rem;
 }
 
-.greeting-video-grid h2 {
+.main-content h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: center;
@@ -122,14 +122,13 @@ video {
 }
   
 .welcome {
-  margin-bottom: 65px;
+  margin-bottom: 55px;
 }
   
 .featured-projects-section {
   padding: 0;
   height: 250px;
-  position: relative;
-  top: 0px;
+  margin-top: 170px;
 }
   
 .container img {
@@ -271,9 +270,9 @@ footer p {
 }
   
   
-.greeting-video-grid {
+.main-content {
   background-color: white;
-  height: 700px;
+  height: 900px;
   margin-top: -470px;
   vertical-align: middle;
 }
@@ -312,9 +311,9 @@ footer p {
 }
   
   
-.greeting-video-grid {
+.main-content {
   background-color: white;
-  height: 750px;
+  height: 950px;
   margin-top: -470px;
   vertical-align: middle;
 }
