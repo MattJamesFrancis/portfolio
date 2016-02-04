@@ -119,6 +119,7 @@ video {
   position: relative;
   top: 15px;
   height: 450px;
+
 }
   
 .welcome {
@@ -281,7 +282,7 @@ footer p {
   padding-right: 130px;
   padding-left: 130px;
 }
-
+  
 }
 
 
@@ -325,11 +326,10 @@ footer p {
   padding-right: 230px;
   padding-left: 230px;
 }
-  
+
 }
   
 /* For mobile screens */
   
 @media only screen and (min-width: 0px) 
-
 
