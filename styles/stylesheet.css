@@ -1,4 +1,7 @@
-/* For screens 768px - 992px */
+/* For small-sized desktop screens 768px - 992px */
+
+@media only screen and (min-width: 768px) {
+  
 
 html,body {
   margin: 0 0 0 0;
@@ -39,7 +42,6 @@ header {
   transition-timing-function: ease-in-out;
   color: #b7a85c;
 }
-
 
 .navbar-nav {
   background: none;
@@ -212,5 +214,38 @@ footer p {
   text-align: center;
   position: relative;
   bottom: -125px;
+}
+  
+}
+
+/* For medium sized desktop screens 992px - 1200px */
+
+@media only screen and (min-width: 992px) {
+  
+  .vid_container {
+  position: relative;
+  top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 535px;
+  overflow: hidden;
+  
+}
+
+/* For large sized desktop screens 1200px and above */
+
+@media only screen and (min-width: 1200px) {
+  
+  .vid_container {
+  position: relative;
+  top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 635px;
+  overflow: hidden;
 }
 
