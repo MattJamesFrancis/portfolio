@@ -87,7 +87,7 @@ video {
 }
   
 .main-content {
-  height: 800px;
+  height: 850px;
   margin-top: -475px;
   background-color: white;
   position: relative;
@@ -118,7 +118,7 @@ video {
 .welcome-section {
   position: relative;
   top: 15px;
-  height: 275px;
+  height: 450px;
 }
   
 .welcome {
@@ -128,7 +128,7 @@ video {
 .featured-projects-section {
   padding: 0;
   height: 250px;
-  margin-top: 170px;
+  margin-top: -15px;
 }
   
 .container img {
