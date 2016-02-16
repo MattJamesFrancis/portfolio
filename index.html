@@ -15,130 +15,150 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     
     <!-- Font Awesome Link -->
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     <!-- CSS & Google Fonts -->
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="styles/stylesheet.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100' rel='stylesheet' type='text/css'>
+		
     <title>Samuel Harrison Wolfe - Portfolio</title>
   </head>
   
   <body>
     
-    <!-- Collapsing Navigation Bar -->
-    
     <header>
-      <!-- logo, name of site, nav, -->
-      <div class="navbar navbar-default navbar-fixed-top">
-        <div class="nav-container">
-         
-           <ul class="nav navbar-nav">
+      <!-- MAIN NAV -->
+        <nav>
+           <ul>
+						 <li><a href="index.html">Home</a></li>
              <li><a href="#">Contact</a></li>
              <li><a href="#">About</a></li>
              <li><a href="#">Resume</a></li>
-             <li><a href="#">Projects</a></li>
+             <li><a href="projects.html">Projects</a></li>
            </ul>
-        </div>
-      
-      </div>
-  
+				</nav>
     </header>
     
-    <!-- Fullscreen Banner Desktop -->
-    <div class="vid_container">
+    <!-- FULLSCREEN BANNER -->
+		
+    <div class="fullscreen-banner">
       <video autoplay loop>
         <source src="videos/website-banner.mp4" type="video/mp4">
         <source src="videos/website-banner.webm" type="video/webm">
       </video>
     </div>
     
-    <div id="logo">
+    <div id="banner-logo">
         <img src="images/website-logo.png">
     </div>
     
-    <!-- Greeting/Video Grid Section -->
+    <!-- MAIN CONTENT -->
     
     <section class="main-content">
+					
+			<!-- WELCOME/INTRO SECTION -->
 
-      <section class="welcome-section">
-
-        <h2 class="welcome">Welcome</h2>
-
+      <section class="main-content-top">
+				
+        <h2 id="welcome">Welcome</h2>
         <div class="container welcome-container">
           <div class="col-sm-12">
             <p>My name is Samuel Wolfe. I'm a multimedia production professional with a wide range of cinematography, directing, and web design experience.</p><br>
             <p>As an electronic media &amp; film student at Eastern Washington University, where I graduated with honors in 2015, I wrote, shot, and directed a number of short films. In my senior year, I was awarded the film department's "Best Achievement in Narrative" award, and three of my short films screened at over a dozen international film festivals, including one whose sole submission criteria was an emphasis on visual storytelling.</p><br>
             <p>Throughout college, I was also involved in numerous feelance production endeavors. Today, I continue to build on that experience by shooting and editing for a wide range of clients and events including weddings, live sports, concert venues, and non-profit organizations.</p>
+						
           </div>
         </div>
       </section>
+			
+			<!-- FEATURED PROJECTS SECTION -->
     
-      <section class="featured-projects-section">
+      <section class="main-content-middle">
         
         <h2 class="projects">Featured Projects</h2>
  
         <div class="container">
           <div class="col-sm-6">
             <img src="images/vacant-2.jpg" class="img-responsive">
+						<section class="project-description">
+							<ul class="tech-specs">
+								<li><span class="bold"><span class="italic">Vacant</span> | DIR: Logan Norton</span></li>
+								<li>Canon 5D Mark III | Magic Lantern RAW</li>
+								<li>Spokane Washington</li>
+							</ul>
+						</section>
           </div>
 
           <div class="col-sm-6">
             <img src="images/over-under-1.jpg" class="img-responsive">
+						<section class="project-description">
+							<ul class="tech-specs">
+								<li><span class="bold"><span class="italic">Over/Under</span> | DIR: Logan Norton</span></li>
+								<li>Canon 5D Mark III | Magic Lantern RAW</li>
+								<li>Spokane, Washington</li>
+							</ul>
+						</section>
           </div>
         </div>
-        
       </section>
-      
+			
+			<div id="view-more-button">
+				<button type="button" class="btn btn-primary"><a href="projects.html">View More</a></button>
+			</div>
+     
     </section>
+		
+		<!-- FOOTER -->
   
-    <div class="icons">
-      <!-- social media accounts -->
-        <ul class="social-media">
-          <li>
-            <a href="https://facebook.com/samuelhwolfe" target=_blank>
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/samuelhwolfe" target=_blank>
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://vimeo.com/samuelhwolfe" target=_blank>
-              <i class="fa fa-vimeo"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/samuelhwolfe" target=_blank>
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/samuelhwolfe" target=_blank>
-              <i class="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/samuelhwolfe" target=_blank>
-              <i class="fa fa-github"></i>
-            </a>
-          </li>
-       </ul>
-    </div>
-    
     <footer>
-      <ul>
-        <li>Blank</li>
-        <li>Blank</li>
-        <li>Blank</li>
-      </ul>
+			<section id="icons">
+			<!-- SOCIAL MEDIA ICON NAV BOX -->
+				<ul id="social-media">
+					<li>
+						<a href="https://facebook.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://vimeo.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-vimeo"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://instagram.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/in/samuelhwolfe" target=_blank>
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+				 </ul>
+			</section>
+			
+			<div id="contact">
+				<ul>
+					<li><a href="#">Blank</a></li>
+					<li><a href="#">Blank</a></li>
+					<li><a href="#">Blank</a></li>
+				</ul>
+				
+			</div>
     
       <p>&copy;Samuel Harrison Wolfe 2016 | All Rights Reserved</p>
     </footer>
     
-        
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script>
