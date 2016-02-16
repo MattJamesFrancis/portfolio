@@ -294,15 +294,9 @@ footer p {
 }
   
 .fullscreen-banner img {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-width: 130%;
   width: 130%;
-  margin-top: -0px;
+
 }
   
 .container.video {
