@@ -1,5 +1,5 @@
 
-
+/* HOME PAGE */
 /* For small-sized desktop screens 768px - 992px */
 
 @media only screen and (min-width: 768px) {
@@ -8,55 +8,62 @@
 html,body {
   margin: 0 0 0 0;
   background-color: black;
-  font-family: font-family: 'Roboto', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
-  
+
+/* HEADER & MAIN NAV */
+	
 header {
-  position: relative;
-  top: 0;
+	position: relative;
+	z-index: 10;
 }
-  
-.navbar {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 15px;
-  background: none;
-  border: none;
-}
-
-.navbar .nav > li > a {
-  padding: 0;
-  color: white;
-  transition: color .5s;
+	
+nav {
+	top: 0;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
 }
 
-.navbar .nav > li > a:hover {
-  padding: 0;
+header nav ul {
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0;
+	text-align: center;
+}
+	
+nav li {
+	height: 100px;
+	line-height: 100px;
+	display: inline;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .4em;
+	text-decoration: none;
+}
+
+nav ul a {
+	color: white;
+	transition: color .5s;
+}
+	
+nav ul a:hover {
+	text-decoration: none;
   transition-timing-function: ease-in-out;
   color: #b7a85c;
 }
 
-.navbar-nav {
-  background: none;
-  width: 100%;
-  text-align: center;
-}
-.navbar-nav li {
-  top: 25px;
-  float: none;
-  display: inline-block;
-  font-size: 1rem;
-  margin-left: 3.5rem;
-  margin-right: 3.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-}
+	
+/* FULLSCREEN BANNER */
   
-.vid_container {
-  margin-top: 0px;
+.fullscreen-banner {
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,34 +72,34 @@ header {
   overflow: hidden;
 }
   
-#logo {
+#banner-logo {
   position: relative;
   top: -450px;
-  z-index: 30;
   height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  overflow: hidden;
 }
   
-#logo img {
+#banner-logo img {
   height: 150px;
 }
-  
-
+ 
 video {
   width: 100%;
 }
   
+ 
+/* MAIN CONTENT */
+	
 .main-content {
-  height: 850px;
-  margin-top: -475px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+  margin-top: -450px;
+	padding-bottom: 125px;
   background-color: white;
-  position: relative;
-  vertical-align: middle;
-  margin-bottom: 250px;
 }
 
 .main-content p {
@@ -107,149 +114,194 @@ video {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: center;
-  position: relative;
-  top: 25px;
   letter-spacing: 8px;
   text-transform: uppercase;
   color: black;
   font-size: 1.8rem;
 }
   
-.welcome-section {
-  position: relative;
-  top: 15px;
-  height: 450px;
-
+.main-content-top {
+	padding-top: 35px;
+  padding-bottom: 35px;
 }
   
-.welcome {
+#welcome {
   margin-bottom: 55px;
 }
   
-.featured-projects-section {
-  padding: 0;
-  height: 250px;
-  margin-top: -15px;
+.main-content-middle {
+  padding-bottom: 35px;
 }
   
 .container img {
-  position: relative;
-  top: 65px;
+  margin-top: 50px;
 }
 
-.thumb p {
-  font-size: 2rem;
-  color: white;
-  text-transform: uppercase;
-  font-style: italic;
-  letter-spacing: .7rem;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 50%;
-  opacity: 0;
-  transition: opacity .5s;
+/* Project Descriptions */
+
+.project-description {
+	margin-top: 10px;
 }
 
-.overlay {
-  transition: opacity .5s;
-  background-color: black;
+.bold {
+	font-weight: 300;
 }
 
-.thumb:hover p {
-  opacity: 1;
+.italic {
+	font-style: italic;
+}
+	
+/* Tech Specs */
+
+ul.tech-specs {
+	list-style-type: none;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	letter-spacing: .2rem;
+	line-height: 2rem;
+}
+	
+#view-more-button {
+	padding-top: 35px;
+	width: 100%;
+	text-align: center;
+}
+	
+#view-more-button button {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-size: .75em;
+	width: 13em;
+	background-color: #1a1a1a;
+}
+	
+button:hover a {
+	text-decoration: none;
+	color: #b7a85c;
+}
+	
+ button a {
+	text-decoration: none;
+	color: white;
+	 transition: color .5s;
 }
 
-.overlay:hover {
-  opacity: .5;
-}
-
-
-.icons {
-  position: fixed;
-  z-index: 50;
-  bottom: 200px;
-  width: 100%;
-  text-align: center;
-  background-color: #b7a85c;
-  height: 8rem;
-  text-align: center;
-  z-index: 10;
-}
-
-.icons ul {
-  position: relative;
-  top: 2.5rem;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.social-media li {
-  padding: 1.5rem;
-  text-decoration: none;
-  display: inline;
-  list-style-type: none;
-}
-
-.social-media i {
-  font-size: 2.75rem;
-  color: #1a1a1a;
-}
+/* FOOTER */
 
 footer {
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 5;
-  position: fixed;
-  bottom: 0;
+	position: relative;
+	top: 0;
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: #1a1a1a;
 }
 
-footer ul {
-  position: relative;
-  top: 25px;
+/* Social Media Icons */
+	
+#icons {
   width: 100%;
+	height: 100px;
+  background-color: #b7a85c;
   text-align: center;
-  
+}
+	
+#icons ul {
+	margin: 0;
+	padding: 0;
 }
 
-footer ul li {
-  position: relative;
+#social-media li {
+  padding: 1.5rem;
+  display: inline;
+}
+
+#social-media i {
+	height: 100px;
+	line-height: 100px;
+  font-size: 2.75rem;
+  color: #1a1a1a;
+}
+	
+
+#contact ul {
+	margin-top: 30px;
+  text-align: center;
+}
+
+#contact li {
+	list-style-type: none;
+	text-decoration: none;
   color: white;
   font-size: 1rem;
   margin-left: 7rem;
   margin-right: 7rem;
-  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  padding: 0rem;
-  text-decoration: none;
   display: inline;
-  list-style-type: none;
+}
+	
+#contact ul > li > a {
+	text-decoration: none;
+	color: white;
+	transition: color .5s;
+}
+
+#contact > ul > li > a:hover {
+	text-decoration: none;
+	transition-timing-function: ease-in-out;
+  color: #b7a85c;
 }
 
 footer p {
+	position: absolute;
+	width: 100%;
+	bottom: 25px;
   color: white;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
   text-align: center;
-  position: relative;
-  bottom: -125px;
 }
   
+/* PROJECTS.HTML */
+  
+#banner-logo h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: .8rem;
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
+  
+.fullscreen-banner img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130%;
+  margin-top: -0px;
+}
+  
+.container.video {
+  margin-top: 60px;
+}
+  
+
 
 /* For medium sized desktop screens 992px - 1200px */
 
 @media only screen and (min-width: 992px) {
   
-.vid_container {
+.fullscreen-banner {
   position: relative;
-  margin-top: 0px;
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -258,10 +310,9 @@ footer p {
   overflow: hidden;
 }
   
-#logo {
+#banner-logo {
   position: relative;
   top: -500px;
-  z-index: 30;
   height: 450px;
   display: flex;
   align-items: center;
@@ -272,9 +323,7 @@ footer p {
   
   
 .main-content {
-  background-color: white;
-  height: 900px;
-  margin-top: -470px;
+  margin-top: -450px;
   vertical-align: middle;
 }
   
@@ -285,15 +334,13 @@ footer p {
   
 }
 
-
-
 /* For large sized desktop screens 1200px and above */
 
 @media only screen and (min-width: 1200px) {
   
-.vid_container {
+.fullscreen-banner {
   position: relative;
-  margin-top: 0px;
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,24 +349,15 @@ footer p {
   overflow: hidden;
 }
   
-#logo {
+#banner-logo {
   position: relative;
   top: -550px;
-  z-index: 30;
   height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   overflow: hidden;
-}
-  
-  
-.main-content {
-  background-color: white;
-  height: 950px;
-  margin-top: -470px;
-  vertical-align: middle;
 }
   
 .welcome-container {
@@ -332,4 +370,3 @@ footer p {
 /* For mobile screens */
   
 @media only screen and (min-width: 0px) 
-
