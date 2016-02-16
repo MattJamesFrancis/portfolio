@@ -64,6 +64,10 @@ nav ul a:hover {
   
 .fullscreen-banner {
   margin-top: -100px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +80,10 @@ nav ul a:hover {
   position: relative;
   top: -450px;
   height: 450px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,6 +102,10 @@ video {
 /* MAIN CONTENT */
 	
 .main-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -282,6 +294,10 @@ footer p {
 }
   
 .fullscreen-banner img {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,6 +318,10 @@ footer p {
 .fullscreen-banner {
   position: relative;
   margin-top: -100px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -314,6 +334,10 @@ footer p {
   position: relative;
   top: -500px;
   height: 450px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -341,6 +365,10 @@ footer p {
 .fullscreen-banner {
   position: relative;
   margin-top: -100px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -353,6 +381,10 @@ footer p {
   position: relative;
   top: -550px;
   height: 450px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,3 +402,4 @@ footer p {
 /* For mobile screens */
   
 @media only screen and (min-width: 0px) 
+
