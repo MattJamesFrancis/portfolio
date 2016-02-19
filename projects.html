@@ -20,15 +20,13 @@
     
     <!-- CSS & Google Fonts -->
     <link rel="stylesheet" href="styles/stylesheet.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,300italic,500,100' rel='stylesheet' type='text/css'>
     <title>Samuel Harrison Wolfe - Portfolio</title>
   </head>
   
   <body>
     
-    <!-- Collapsing Navigation Bar -->
-    
-    <header>
+    <header id="projects-header">
       <!-- logo, name of site, nav, -->
         <nav>
            <ul>
@@ -36,18 +34,22 @@
              <li><a href="#">Contact</a></li>
              <li><a href="#">About</a></li>
              <li><a href="#">Resume</a></li>
-             <li><a href="projects.html">Projects</a></li>
+             <li><a href="projects.html">Portfolio</a></li>
            </ul>
 				</nav>
     </header>
 		
-    <!-- Fullscreen Banner Desktop -->
-    <div class="fullscreen-banner">
-      <img src="images/v-park.jpg" alt="light flooding through trees">
-    </div>
+    <!-- BANNER -->
+    <div class="projects-fullscreen-banner">
+      <!-- Image Inserted via CSS Background -->
+		</div>
+		
+		<div class="banner-title">
+      <h1><span class="upper"></span>Select<br>Project<span class="last-letter">s</span></h1>
+		</div>
     
     <div id="banner-logo">
-      <h1>Projects</h1>
+			<a href="index.html"><img src="images/website-logo-2.png"></a>
     </div>
     
     <!-- Greeting/Video Grid Section -->
@@ -56,23 +58,41 @@
       
       <section class="main-content-top">
 				
-      <h2>Video</h2>
+      <h2 class="heading">Narrative</h2>
         <div class="container video">
-          <div class="col-sm-6">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://player.vimeo.com/video/97579831?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <section class="project-description">
+              <ul class="tech-specs">
+								<li><span class="bold"><span class="italic">Vacant</span> | DIR: Samuel Wolfe</span></li>
+								<li>Canon 5D Mark III | Magic Lantern RAW</li>
+								<li>Spokane Washington</li>
+							</ul>
+            
+            </section>
+          </div>
+        
+        
+        </div>
+        
+        <div class="container video-row">
+          <div class="col-sm-6 l">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://player.vimeo.com/video/81447760?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div>
 						<section class="project-description">
 							<ul class="tech-specs">
-								<li><span class="bold"><span class="italic">Vacant</span> | DIR: Samuel Wolfe</span></li>
+								<li><span class="bold"><span class="italic">Stonewall</span> | DIR: Samuel Wolfe</span></li>
 								<li>Canon 5D Mark III | Magic Lantern RAW</li>
-								<li>Spokane Washington</li>
+								<li>Spokane, WA</li>
 							</ul>
 						</section>
           </div>
           
 					
-          <div class="col-sm-6">
+          <div class="col-sm-6 r">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://player.vimeo.com/video/101761025?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div>			
@@ -80,16 +100,46 @@
 							<ul class="tech-specs">
 								<li><span class="bold"><span class="italic">Over/Under</span> | DIR: Logan Norton</span></li>
 								<li>Canon 5D Mark III | Magic Lantern RAW</li>
-								<li>Spokane Washington</li>
+								<li>Spokane, WA</li>
 							</ul>
 						</section>
         </div>
 				</div>
 				
-					</section>
+      </section>
+      
+      <section class="main-content-middle">
+        
+        <h2 class="heading">Wedding</h2>
+        
+        <div class="container">
+          <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/r5uf74LoaU4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <section class="project-description">
+              <ul class="tech-specs">
+                <li><span class="bold">Kelley Wedding</span></li>
+                <li>Canon 5D Mark III</li>
+                <li>Thousand Oaks, CA</li>
+              </ul>
+            
+            </section>
+          
+          </div>
+        
+        </div>
+      
+      
+      
+      </section>
+      
+      <div id="view-more-button">
+			 <a href="index.html" class="btn btn-primary">Home</a>
+		  </div>
+      
 			</section>
-
-  
+    
     <!-- FOOTER -->
   
     <footer>
@@ -138,17 +188,16 @@
 				
 			</div>
     
-      <p>&copy;Samuel Harrison Wolfe 2016 | All Rights Reserved</p>
+      <p>Created and developed by<br>Samuel Harrison Wolfe | 2016</p>
     </footer>
         
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script>
+   
       
     <!-- Minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-      
-    
+
   </body>
   
 </html>
