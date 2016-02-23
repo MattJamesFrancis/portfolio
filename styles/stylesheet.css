@@ -13,6 +13,12 @@
     height: 100%;
   }
 	
+	/*****************
+	******************
+	*** INDEX.HTML ***
+	******************
+	******************/
+	
 	header {
 		position: relative;
 		z-index: 10;
@@ -70,11 +76,12 @@
   }
   
 	.text h1 {
+		text-transform: uppercase;
     position: relative;
 		color: white;
 		font-size: 12vw;
     font-weight: 500;
-		text-transform: uppercase;
+		text-transfo#viewrm: uppercase;
 		letter-spacing: .1em;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
@@ -135,17 +142,17 @@
 		letter-spacing: .5em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 2.5em;
+		font-size: 8vw;
     padding-bottom: 35px;
     opacity: .4
 	}
   
   .main-content-top {
-		margin-top: 200px;
+		margin-top: 10vw;
 	}
 
 	.main-content-middle {
-    margin-top: 200px;
+    margin-top: 10vw;
 	}
   
   
@@ -153,7 +160,9 @@
   	margin-top: 0px;
 	}	
 
-/* Project Descriptions */
+	/*************************
+	** PROJECT DESCRIPTIONS **
+	**************************/
 
 	.project-description {
 		margin-top: 10px;
@@ -168,7 +177,9 @@
 		font-style: italic;	
 	}
 	
-	/* TECH SPECS */
+	/*******************
+	**** TECH SPECS ****
+	********************/
 
 	ul.tech-specs {
 		list-style-type: none;
@@ -207,7 +218,9 @@
 		transition: color .8s;
 	}
   
-	/* FOOTER */
+	/*************
+	*** FOOTER ***
+	**************/
 
 	footer {
 		position: relative;
@@ -217,7 +230,9 @@
 		background-color: #1a1a1a;
 	}
 
-	/* SOCIAL MEDIA ICONS (FOOTER) */
+	/********************************
+	** SOCIAL MEDIA ICONS (FOOTER) **
+	*********************************/
 
 	#icons {
 		width: 100%;
@@ -301,7 +316,13 @@
 		text-align: center;
 	}
 	
-		/* PROJECTS.HTML */
+	/******************
+	*******************
+	*******************
+	** PROJECTS.HTML ** 
+	*******************
+	*******************
+	*******************/
   
   #projects-header {
     height: 100px;
@@ -346,7 +367,6 @@
 		z-index: 50;
 		padding: 0;
 		margin: 0;
-		margin-left: 5%;
 		color: white;
 		z-index: 50;
 		font-size: 8vw;
@@ -363,7 +383,37 @@
   }
   
   .video-row {
-    margin-top: 0px;
+    margin-top: 5%;
+  }
+	
+	.narrow {
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+
+		
+	/******************
+	*******************
+	*******************
+	*** RESUME.HTML *** 
+	*******************
+	*******************
+	*******************/
+	
+	.resume-fullscreen-banner {
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+		background-image: url(../images/samuel-beach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+		width: 100%;
+		height: 450px;
+    margin-top: -100px;
+		overflow: hidden;
   }
 	
 }
@@ -419,8 +469,6 @@
 		flex-direction:row;
 		height: 100px;
 		padding-right: 30px;
-		
-		
 	}
 
 	nav li {
@@ -554,7 +602,7 @@
 		-webkit-flex-direction: column;
 		flex-direction: column;
 		background-color: white;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 	}
 
 	.main-content p {
@@ -571,27 +619,32 @@
 		text-transform: uppercase;
 		color: black;
 		font-size: 5em;
-    padding-bottom: 75px;
+		padding-top: 0;
+		margin-top: 0px;
+    padding-bottom: 25px;
 		opacity: .4;
-		line-height: 1.5em;
+		line-height: 1.2em;
 	}
 
+	.greeting {
+		margin-top: 10vw;
+	}
 	.main-content-top {
-		margin-top: 200px;
+		margin-top: 10vw;
 	}
 
 	.main-content-middle {
-    margin-top: 200px;
+    margin-top: 10vw;
 	}
   
   .main-content-bottom {
-    margin-top: 200px;
+    margin-top: 10vw;
   }
   
   #view-more-button {
 		width: 100%;
 		text-align: center;
-    margin-top: 50px;
+    margin-top: 75px;
 	}
 
 	#view-more-button a {
@@ -737,7 +790,13 @@
 		line-height: 2em;
 	}
 
-	/* PROJECTS.HTML */
+	/******************
+	*******************
+	*******************
+	** PROJECTS.HTML ** 
+	*******************
+	*******************
+	*******************/
   
   #projects-header {
     height: 100px;
@@ -759,7 +818,13 @@
 		padding: 0;
 		height: 530px;
 		margin-top: -530px;
-		background-color: rgba(105, 105, 105, .4);
+		background-color: rgba(105, 105, 105, .5);
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -770,7 +835,6 @@
 		z-index: 50;
 		padding: 0;
 		margin: 0;
-		margin-left: 5%;
 		color: white;
 		z-index: 50;
 		font-size: 8vw;
@@ -779,12 +843,115 @@
 		letter-spacing: .2em;
 		border-top: solid 2px white;
     border-bottom: solid 2px white;
-		
+	}
+	
+	.narrow {
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
 	}
 
   .video-row {
-    margin-top: 30px;
+    margin-top: 5%;
   }
+	
+	/******************
+	*******************
+	*******************
+	*** RESUME.HTML *** 
+	*******************
+	*******************
+	*******************/
+	
+	.resume-fullscreen-banner {
+    transition: 1s ease;
+    height: 530px;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/samuel-beach.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+	
+	.logo-grid {
+		margin-left: 10%;
+		margin-right: 10%;
+		height: 100px;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		display: flex;
+		align-items: center;
+		opacity: .7;
+	}
+	
+	.skills-logo-grid .logo-grid {
+		margin-bottom: 2vw;
+	} 
+	
+	.logo-grid img {
+		max-height: 60%;
+		object-fit: contain;
+	}
+	
+	
+	.education {
+		width: 80%;
+		height: 200px;
+		margin-right: auto;
+		margin-left: auto;
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+	
+	.education-info {
+		width: 60%;
+	}
+	
+	.education-info ul {
+		margin: 0;
+		list-style-type: none;
+		padding-left: 0;
+		padding-right: 3vw;
+	}
+	
+	.school {
+		font-size: 1.5em;
+		font-weight: 700;
+		letter-spacing: .1em;
+	}
+	
+	.degree-certificate {
+		font-size: 1.25em;
+		font-weight: 500;
+	}
+	
+	.school-description {
+		font-weight: 300;
+		font-style: italic;
+	}
+	
+	.university-seal {
+		position: relative;
+		width: 20%;
+		height: 200px;
+	}
+	
+	.university-seal img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		height: 66%;
+		opacity: .7;
+	}
   
 /* MEDIUM SIZED DESKTOP SCREENS 992px - 1200px */
 
@@ -800,17 +967,24 @@
     padding-left: 130px;
   }
   
-  /* PROJECTS PAGE */
+  /*******************
+	********************
+	*** PROJECTS.HTML **
+	********************
+	********************/
   
   .banner-title {
 		padding: 0;
 		height: 630px;
 		margin-top: -630px;
 		background-color: rgba(105, 105, 105, .4);
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		
 	}
   
   .main-content .col-sm-12 {
@@ -829,7 +1003,17 @@
   .projects-fullscreen-banner {
     height: 630px;
   }
-  
+	
+	/******************
+	*******************
+	*******************
+	*** RESUME.HTML *** 
+	*******************
+	*******************
+	*******************/
+
+  .resume-fullscreen-banner {
+    height: 630px;
 }
 
 /* LARGE SIZED DESKTOP SCREENS 1200px and above */
@@ -841,7 +1025,11 @@
     padding-left: 230px;
   }
 
-  /* PROJECTS PAGE */
+  /*******************
+	********************
+	*** PROJECTS.HTML **
+	********************
+	********************/
   
   .banner-title {
 		padding: 0;
@@ -850,10 +1038,8 @@
 		background-color: rgba(105, 105, 105, .4);
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		
+		justify-content: center;	
 	}
-
 
   .main-content .col-sm-12 {
     padding-left: 5%;
@@ -876,7 +1062,17 @@
     height: 730px;
     margin-top: -730px;
   }
-
+	
+	/******************
+	*******************
+	*******************
+	*** RESUME.HTML *** 
+	*******************
+	*******************
+	*******************/
+	
+	.resume-fullscreen-banner {
+    height: 730px;
 }
   
 /* For mobile screens 
