@@ -194,8 +194,8 @@
 	
 	#view-more-button {
     display: -webkit-flex;
-    -webkit-align-items; flex;
-    -webkit-justify-content: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,8 +207,8 @@
 
 	#view-more-button a {
     display: -webkit-flex;
-    -webkit-align-items; flex;
-    -webkit-justify-content: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -371,6 +371,9 @@ background-color: rgba(26, 26, 26, .85);
     height: 450px;
     margin-top: -450px;
 		background-color: rgba(105, 105, 105, .4);
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -442,6 +445,9 @@ background-color: rgba(26, 26, 26, .85);
   .mobile-logo-grid {
     margin-left: auto;
     margin-right: auto;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
