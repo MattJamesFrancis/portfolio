@@ -7,7 +7,7 @@
   
   html,body {
     margin: 0 0 0 0;
-		background-color: black;
+		background-color: dimgray;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
     height: 100%;
@@ -81,7 +81,6 @@
 		color: white;
 		font-size: 12vw;
     font-weight: 500;
-		text-transfo#viewrm: uppercase;
 		letter-spacing: .1em;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
@@ -201,6 +200,7 @@
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
+		font-weight: 700;
 		font-size: .75em;
 		width: 13em;
 		background-color: #1a1a1a;
@@ -425,7 +425,7 @@
 
 	html,body {
 		margin: 0 0 0 0;
-		background-color: black;
+		background-color: dimgray;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
     height: 100%;
@@ -652,7 +652,8 @@
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
-		font-size: 1em;
+		font-size: 1.25em;
+		font-weight: 500;
 		width: 13em;
 		background-color: #1a1a1a;
 	}
@@ -875,8 +876,8 @@
   }
 	
 	.logo-grid {
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 20%;
+		margin-right: 20%;
 		height: 100px;
 		display: -webkit-flex;
 		-webkit-align-items: center;
@@ -896,7 +897,7 @@
 	
 	
 	.education {
-		width: 80%;
+		width: 75%;
 		height: 200px;
 		margin-right: auto;
 		margin-left: auto;
