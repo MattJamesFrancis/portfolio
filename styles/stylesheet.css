@@ -392,13 +392,8 @@ background-color: rgba(26, 26, 26, .85);
     border-bottom: solid 2px white;
 	}
   
-
   .video-row {
-    margin-top: 30px;
-  }
-  
-  .video-row {
-    margin-top: 5%;
+    margin-top: 10vw;
   }
 	
 	.narrow {
@@ -737,7 +732,7 @@ background-color: rgba(26, 26, 26, .85);
 	}
 
 	.greeting {
-		margin-top: 10vw;
+		margin-top: 15vw;
 	}
 	.main-content-top {
 		margin-top: 10vw;
