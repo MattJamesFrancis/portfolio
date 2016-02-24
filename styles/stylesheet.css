@@ -125,7 +125,7 @@
 		-webkit-flex-direction: column;
 		flex-direction: column;
 		background-color: white;
-    padding-bottom: 200px;
+    padding-bottom: 25vw;
 	}
 
 	.main-content p {
@@ -147,16 +147,17 @@
 	}
   
   .main-content-top {
-		margin-top: 10vw;
+		margin-top: 15vw;
 	}
 
 	.main-content-middle {
-    margin-top: 10vw;
+    margin-top: 15vw;
 	}
   
   
 	.container img {
   	margin-top: 0px;
+    opacity: .8;
 	}	
 
 	/*************************
@@ -165,7 +166,7 @@
 
 	.project-description {
 		margin-top: 10px;
-		margin-bottom: 50px;
+		margin-bottom: 5vw;
 	}
 
 	.bold {
@@ -192,30 +193,44 @@
 	}
 	
 	#view-more-button {
+    display: -webkit-flex;
+    -webkit-align-items; flex;
+    -webkit-justify-content: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 		width: 100%;
+    height: 3em;
 		text-align: center;
+    margin-top: 20vw;
 	}
-	
+
 	#view-more-button a {
+    display: -webkit-flex;
+    -webkit-align-items; flex;
+    -webkit-justify-content: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
-		font-weight: 700;
-		font-size: .75em;
-		width: 13em;
-		background-color: #1a1a1a;
-
+		font-size: 1em;
+		font-weight: 500;
+    background-color: white;
+		color: rgba(26, 26, 26, .7);
+		transition: color .8s;
+    border: solid 2px rgba(26, 26, 26, .7);
 	}
-	
+
 	#view-more-button a:hover {
 		text-decoration: none;
 		color: #b7a85c;
-	}
-	
-	 #view-more-button a {
-		text-decoration: none;
-		color: white;
-		transition: color .8s;
 	}
   
 	/*************
@@ -227,7 +242,7 @@
 		top: 0;
 		width: 100%;
 		height: 300px;
-		background-color: #1a1a1a;
+background-color: rgba(26, 26, 26, .85);
 	}
 
 	/********************************
@@ -400,7 +415,20 @@
 	*******************
 	*******************
 	*******************/
-	
+  
+  .greeting {
+		margin-top: 15vw;
+    padding-bottom: 0;
+	}
+  
+  .main-content-bottom {
+    margin-top: 15vw;
+  }
+  
+  .narrow {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 	.resume-fullscreen-banner {
     -webkit-transition: 1s ease;
     -moz-transition: 1s ease;
@@ -414,6 +442,88 @@
 		height: 450px;
     margin-top: -100px;
 		overflow: hidden;
+  }
+  
+  .mobile-logo-grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 75px;
+  }
+  
+  .mobile-col-sm-3 {
+    width: 25%;
+    margin-bottom: 3vw;
+  }
+  
+  .mobile-logo-grid img {
+    padding: 2%;
+    opacity: .6;
+    max-height: 80%;
+		object-fit: contain;
+  }
+  
+  .education-mobile {
+    width: 85%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-flex;
+		-webkit-flex-direction: row;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+  }
+  
+	
+	.education-info-mobile {
+		width: 60%;
+	}
+  
+  .education-info-mobile ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 3vw;
+    padding-right: 4vw;
+  }
+  
+  .university-seal {
+		position: relative;
+		width: 20%;
+		height: 200px;
+	}
+  
+  .university-seal img {
+    object-fit: contain;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		height: 40%;
+		opacity: .7;
+	}
+  
+.school {
+		font-size: 3vw;
+		font-weight: 500;
+		letter-spacing: .1em;
+	}
+	
+	.degree-certificate {
+		font-size: 2.5vw;
+		font-weight: 300;
+	}
+  
+  .school-description {
+    display: none;
   }
 	
 }
@@ -620,7 +730,7 @@
 		color: black;
 		font-size: 5em;
 		padding-top: 0;
-		margin-top: 0px;
+		margin-top: 0;
     padding-bottom: 25px;
 		opacity: .4;
 		line-height: 1.2em;
@@ -636,6 +746,14 @@
 	.main-content-middle {
     margin-top: 10vw;
 	}
+  
+  .featured-projects {
+    margin-top: 3vw;
+  }
+  
+  .main-content-middle img {
+    opacity: .8;
+  }
   
   .main-content-bottom {
     margin-top: 10vw;
@@ -654,8 +772,11 @@
 		letter-spacing: .2em;
 		font-size: 1.25em;
 		font-weight: 500;
-		width: 13em;
-		background-color: #1a1a1a;
+		width: 10em;
+    background-color: white;
+		color: rgba(26, 26, 26, .7);
+		transition: color .8s;
+    border: solid 2px rgba(26, 26, 26, .7);
 	}
 
 	#view-more-button a:hover {
@@ -663,11 +784,6 @@
 		color: #b7a85c;
 	}
 
-	 #view-more-button a {
-		text-decoration: none;
-		color: white;
-		transition: color .8s;
-	}
   
 	/* Project Descriptions */
 
@@ -703,7 +819,7 @@
     position: relative;
 		width: 100%;
 		height: 300px;
-		background-color: #1a1a1a;
+		background-color: rgba(26, 26, 26, .85);
 
 	}
 
@@ -746,7 +862,7 @@
 	
 	#social-media i:hover {
 		color: white;
-		transition-timing-function: ease-in-out;
+		transition: color .8s;
 	}
 
 	#contact ul {
@@ -759,7 +875,7 @@
 		list-style-type: none;
 		text-decoration: none;
 		color: white;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		margin-left: 7rem;
 		margin-right: 7rem;
 		text-transform: uppercase;
