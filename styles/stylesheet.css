@@ -1095,9 +1095,9 @@ background-color: rgba(26, 26, 26, .85);
   
   #bio {
     float: left;
-    width: 50%;
-    margin-left: 10vw;
-    padding-right: 5vw;
+    width: 40%;
+    margin-left: 12vw;
+    padding-right: 10vw;
     border-right: solid 1px black;
   }
   
@@ -1119,9 +1119,9 @@ background-color: rgba(26, 26, 26, .85);
   
   #recognition {
     float: right;
-    margin-right: 10vw;
-    width: 30%;
     padding-left: 5vw;
+    margin-right: 12vw;
+    width: 30%;
   }
   
   #recognition p {
