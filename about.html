@@ -1,78 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8"/>
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="styles/about-me-stylesheet.css">
+    <!-- Bootstram & Jquery links -->
+    
+    <!-- IE Edge Meta Tag -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <!-- Font Awesome Link -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <!-- CSS & Google Fonts -->
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,300italic,500,100' rel='stylesheet' type='text/css'>
+    <title>Samuel Harrison Wolfe - Portfolio</title>
   </head>
   
   <body>
-    <header class="header">
+    
+    <header id="projects-header">
       <!-- logo, name of site, nav, -->
-      <div class="home"><a href="index.html">Samuel Harrison Wolfe</a></div>
-      <nav>
-        <ul>
-          <li><a href="../portfolio/about-me.html">About</a></li>
-          <li><a href="../portfolio/selected-projects.html">Selected Projects</a></li>
-          <li><a href="../portfolio/get-in-touch.html">Get In Touch</a></li>
-        </ul>
-      </nav>
+        <nav>
+           <ul>
+						 <!-- <li><a href="index.html">Home</a></li> -->
+             <li><a href="projects.html">Portfolio</a></li>
+             <li><a href="resume.html">Resume</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="#">Contact</a></li>
+           </ul>
+				</nav>
     </header>
-    <!-- cool banner graphic, page title -->
+		
+    <!-- BANNER -->
+    <div class="about-fullscreen-banner">
+      <!-- Image Inserted via CSS Background -->
+		</div>
+		
+		<div class="banner-title">
+			<div class="text">
+      	<h1>Abou<span class="last-letter">t</span></h1>
+			</div>
+		</div>
     
-    <div class="banner"></div>
-   
-    <article>
-      <h2>About Me</h2>
-        <!-- short personal bio -->
-        <p>Originally from the Pacific Northwest, I attended college at Eastern Washington University. As a student of EWU's Electronic Media &amp; Film Program, I wrote, shot, and directed multiple short films that were granted screening at a wide range of international film festivals. Throughout college, I also worked as a cinematographer for the university athletic department and completed a studio production internship at ESPN. For the last two years, I've been working as a freelance videographer/editor for a variety of clients including medical manufacturing companies, the non-profit sector, musical artists, and fashion entrepreneurs.</p>
-    </article>
+    <div id="banner-logo">
+			<a href="index.html"><img src="images/website-logo-2.png"></a>
+    </div>
     
-    <section>
-      <!-- random/cool photo section -->
-      <h2>My Adventures</h2>
-        <img class="espn" src="images/espn-x.jpg" alt="SportsCenter Studio X">
-          <div class="bottom">
-            <img class="kusi" src="images/me-kusi.jpg" alt="Picture of me in front of KUSI News">
-            <img class="bumbershoot" src="images/me-bumbershoot.jpg" alt= "Directing Bumbershoot Music Festival">
-            <img class="dp" src="images/me-over-under.jpg" alt="Filming the short film Over/Under">
-        </div>
-    </section>
-                                                                                           
+    <!-- Greeting/Video Grid Section -->
     
+    <section class="main-content">
+			
+			<section class="main-content-top">
+        <article id="bio">
+          <h2 class="about-heading">My Philosophy</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+          <p>Thanks for stopping by,</p>
+          <div class="signature">
+            <p>Samuel Harrison Wolfe</p>
+            <img src="images/signature.png" alt="signature">
+          </div>
+        
+        </article>
+        
+        <article id="recognition">
+          <h2 class="about-heading">Awards &amp; Recognition</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        </article>
+				
+			
+			</section>
+			
+      
+      <div id="view-more-button">
+			 <a href="index.html" class="btn btn-primary">Home</a>
+		  </div>
+			
+		</section>
+    
+    <!-- FOOTER -->
+  
     <footer>
-      <section>
-        <!-- social media accounts -->
-        <h3>samuelhwolfe.com</h3>
-          <ul class="social-media">
-            <li>
-              <a href="https://facebook.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/facebook.png" alt="Facebook Link"></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/twitter.png" alt="Twitter Link"></a>
-            </li>
-            <li>
-              <a href="https://vimeo.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/vimeo.png" alt="Vimeo Link"></a>
-            </li>
-            <li>
-              <a href="https://instagram.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/instagram.png" alt="Instagram Link"></a>
-            </li>
-            <li>
-              <a href="https://linkedin.com/in/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/linkedin.png" alt="LinkedIn Link"></a>
-            </li>
-            <li>
-              <a href="https://github.com/samuelhwolfe" target=_blank>
-                <img class="icon" src="images/github.png" alt="GitHub Link"></a>
-            </li>
-         </ul>
-      </section>
-        <p>&copy; 2015 Samuel Harrison Wolfe</p>
+			<section id="icons">
+			<!-- SOCIAL MEDIA ICON NAV BOX -->
+				<ul id="social-media">
+					<li>
+						<a href="https://facebook.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://vimeo.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-vimeo"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://instagram.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/in/samuelhwolfe" target=_blank>
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/samuelhwolfe" target=_blank>
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+				 </ul>
+			</section>
+			
+			<div id="contact">
+				<ul>
+					<li><a href="#">Blank</a></li>
+					<li><a href="#">Blank</a></li>
+					<li><a href="#">Blank</a></li>
+				</ul>
+				
+			</div>
+    
+      <p>Created and developed by<br>Samuel Harrison Wolfe | 2016</p>
     </footer>
-  </body>
+        
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+      
+    <!-- Minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+  </body>
+  
 </html>
