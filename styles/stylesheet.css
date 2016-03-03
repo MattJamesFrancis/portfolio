@@ -135,6 +135,8 @@
 		font-weight: 300;
 		font-size: 1.2em;
 		line-height: 1.5em;
+		padding: 0;
+		margin: 0;
 	}
 
   .heading {
@@ -149,23 +151,36 @@
 	}
   
   .main-content-top {
+		width: 90%;
+		margin: 0 auto;
 		margin-top: 15vw;
+		max-width: 650px;
+	}
+	
+	.col-sm-12 {
+		padding: 0;
 	}
 
 	.main-content-middle {
+		width: 90%;
+		max-width: 650px;
+		margin: 0 auto;
     margin-top: 15vw;
 	}
 	
-	.featured-projects {
+	.col-sm-6 {
 		padding: 0;
-		width: 90vw;
-		max-width: 550px;
+	}
+	
+	.featured-projects {
+		margin: 0 auto;
+		padding-right: 0;
+		padding-left: 0;
 	}
   
   
 	.container img {
   	margin-top: 0px;
-    opacity: .8;
 	}	
 
 	/*************************
@@ -383,8 +398,6 @@ background-color: rgba(26, 26, 26, .85);
   .banner-title h1 {
 		color: white;
 		z-index: 50;
-		padding: 0;
-		margin-top: 5vw;
 		color: white;
 		z-index: 50;
 		font-size: 8vw;
@@ -473,6 +486,17 @@ background-color: rgba(26, 26, 26, .85);
     background-repeat: no-repeat;
 	}
 	
+	#over-under-fullscreen-banner {
+		transition: 1s ease;
+    height: 70vw;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/over-under-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	
 	.film-banner-title {
     transition: 1s ease;
 		padding: 0;
@@ -555,7 +579,7 @@ background-color: rgba(26, 26, 26, .85);
     background-position: center;
     background-repeat: no-repeat;
 		width: 100%;
-		height: 450px;
+		height: 70vw;
     margin-top: -100px;
 		overflow: hidden;
   }
@@ -644,6 +668,112 @@ background-color: rgba(26, 26, 26, .85);
   .school-description {
     display: none;
   }
+	
+	/*******************
+	********************
+	********************
+	**** ABOUT.HTML ****
+	********************
+	********************
+	********************/
+	
+	.main-content {
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		height: auto;
+		min-height: 100%;
+		background-color: white;
+		min-height: 100%;
+		height: auto;
+	}
+  
+  .about-fullscreen-banner {
+    transition: 1s ease;
+    height: 70vw;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/work-station.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #bio {
+		height: 100%;
+    width: 90%;
+		max-width: 550px;
+    margin: 0 auto;
+  }
+  
+  #bio p {
+    font-size: 1.2em;
+  }
+  
+  .signature {
+    margin-top: 50px;
+    padding-top: 0;
+  }
+  
+  .signature img {
+    margin-top: 0;
+    padding-top: 0;
+    max-width: 250px;
+    width: 40%;
+  }
+  
+  #recognition {
+		height: 100%;
+    width: 90%;
+		max-width: 550px;
+		margin-top: 10vw;
+		margin-right: auto;
+		margin-left: auto;
+		border-top: solid 1px black;
+		padding-top: 10vw;
+  }
+  
+  #recognition p {
+    font-size: 1.2em;
+  }
+  
+  .about-heading {
+		text-align: center;
+		font-weight: 500;
+		letter-spacing: .3em;
+		text-transform: uppercase;
+		color: black;
+		font-size: 7vw;
+		padding-top: 0;
+		margin-top: 0;
+    padding-bottom: 25px;
+		opacity: .4;
+		line-height: 1.2em;
+	}
+	
+	.about-logo-grid {
+		margin-top: 5vw;
+		margin-right: auto;
+		margin-left: auto;
+		height: 100px;
+		width: 90%;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: .9;
+	}
+
+	.about-logo-grid img {
+		max-height: 90%;
+		padding: 25px;
+		object-fit: contain;
+	}
+	
+	
 	
 }
 
@@ -859,8 +989,10 @@ background-color: rgba(26, 26, 26, .85);
 	.greeting {
 		margin-top: 12vw;
 	}
+	
 	.main-content-top {
 		margin-top: 10vw;
+
 	}
 
 	.main-content-middle {
@@ -1161,6 +1293,17 @@ background-color: rgba(26, 26, 26, .85);
     background-repeat: no-repeat;
 	}
 	
+	#over-under-fullscreen-banner {
+		transition: 1s ease;
+    height: 530px;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/over-under-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	
 	.film-banner-title {
     transition: 1s ease;
 		padding: 0;
@@ -1227,6 +1370,7 @@ background-color: rgba(26, 26, 26, .85);
 	
 	
 	.narrow  {
+		padding: 0;
 		width: 60%;
 		margin: 0 auto;
 	}
@@ -1418,11 +1562,6 @@ background-color: rgba(26, 26, 26, .85);
   .main-content {
     vertical-align: middle;
   }
-
-  .welcome-container {
-    padding-right: 130px;
-    padding-left: 130px;
-  }
   
   /*******************
 	********************
@@ -1477,11 +1616,6 @@ background-color: rgba(26, 26, 26, .85);
 
 @media only screen and (min-width: 1200px) {
   
-  .welcome-container {
-    padding-right: 230px;
-    padding-left: 230px;
-  }
-
   /*******************
 	********************
 	*** PROJECTS.HTML **
