@@ -133,7 +133,7 @@
 	.main-content p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 1.5em;
+		font-size: 1.2em;
 		line-height: 1.5em;
 	}
 
@@ -154,6 +154,12 @@
 
 	.main-content-middle {
     margin-top: 15vw;
+	}
+	
+	.featured-projects {
+		padding: 0;
+		width: 90vw;
+		max-width: 550px;
 	}
   
   
@@ -445,12 +451,23 @@ background-color: rgba(26, 26, 26, .85);
 	*******************************
 	*******************************/
 	
-	.film-fullscreen-banner {
+	#vacant-fullscreen-banner {
 		transition: 1s ease;
     height: 70vw;
 		width: 100%;
     margin-top: -100px;
     background-image: url(../images/vacant-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	
+	#stonewall-fullscreen-banner {
+		transition: 1s ease;
+    height: 70vw;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/stonewall3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1122,12 +1139,23 @@ background-color: rgba(26, 26, 26, .85);
 	*******************************
 	*******************************/
 	
-	.film-fullscreen-banner {
+	#vacant-fullscreen-banner {
 		transition: 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
     background-image: url(../images/vacant-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	
+	#stonewall-fullscreen-banner {
+		transition: 1s ease;
+    height: 530px;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/stonewall3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
