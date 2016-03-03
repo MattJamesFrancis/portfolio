@@ -128,7 +128,6 @@
 		height: auto;
 		min-height: 100%;
 		background-color: white;
-    padding-bottom: 25vw;
 	}
 
 	.main-content p {
@@ -168,7 +167,7 @@
 	**************************/
 
 	.project-description {
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-bottom: 5vw;
 	}
 
@@ -192,39 +191,29 @@
 		text-transform: uppercase;
 		font-size: 1.3rem;
 		letter-spacing: .2rem;
-		line-height: 2rem;
+		line-height: 1.5em;
 	}
 	
 	#view-more-button {
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+		display: -webkit-flex;
+		-webkit-justify-content: center;
+		-webkit-align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 70vw;
 		width: 100%;
-    height: 3em;
 		text-align: center;
-    margin-top: 20vw;
 	}
-
+	
 	#view-more-button a {
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 9em;
-    height: 100%;
-    padding: 0;
-    text-align: center;
     font-weight: 300;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
-		font-size: 1em;
+		font-size: 1.25em;
 		font-weight: 500;
+		width: 10em;
     background-color: white;
 		color: rgba(26, 26, 26, .7);
 		transition: color .8s;
@@ -274,14 +263,14 @@ background-color: rgba(26, 26, 26, .85);
 	}
 
 	#social-media li {
-		padding-right: 3vw;
-		padding-left: 3vw;
+		padding-right: 4vw;
+		padding-left: 4vw;
 		display: inline;
 	}
 
 	#social-media i {
 		text-decoration: none;
-		font-size: 2.5em;
+		font-size: 5vw;
 		color: #1a1a1a;
 		transition: color .5s;
 	}
@@ -417,9 +406,10 @@ background-color: rgba(26, 26, 26, .85);
 	
 	
 	.video-thumbnail {
-		max-width: 250px;
+		background-color: black;
+		max-width: 350px;
 		max-height: 250px;
-		width: 60vw;
+		width: 70vw;
 		height: 60vw;
 	}
 	
@@ -428,11 +418,15 @@ background-color: rgba(26, 26, 26, .85);
 	}
 	
 	.mobile-middle {
-		margin-top: 10vw;
+		margin-top: 70px;
+	}
+	
+	.bottom-row {
+		margin-bottom: 30px;
 	}
 	
 	.video-thumbnail img {
-		opacity: .7;
+		opacity: 1;
 		padding: 0;
 		object-fit: cover;
 		height: 100%;
@@ -441,7 +435,7 @@ background-color: rgba(26, 26, 26, .85);
 	}
 	
 	.video-thumbnail img:hover {
-		opacity: 1;
+		opacity: .7;
 		cursor: pointer;
 	}
 	
@@ -756,13 +750,12 @@ background-color: rgba(26, 26, 26, .85);
 		height: auto;
 		min-height: 100%;
 		background-color: white;
-    padding-bottom: 150px;
 	}
 
 	.main-content p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 1.5em;
+		font-size: 1.2em;
 		line-height: 1.5em;
 	}
 
@@ -772,7 +765,7 @@ background-color: rgba(26, 26, 26, .85);
 		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 5em;
+		font-size: 4vw;
 		padding-top: 0;
 		margin-top: 0;
     padding-bottom: 25px;
@@ -795,20 +788,20 @@ background-color: rgba(26, 26, 26, .85);
     margin-top: 3vw;
   }
   
-  .main-content-middle img {
-    opacity: .8;
-  }
-  
   .main-content-bottom {
     margin-top: 10vw;
   }
   
   #view-more-button {
-		margin-top: 10%;
+		display: -webkit-flex;
+		-webkit-justify-content: center;
+		-webkit-align-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 40vw;
 		width: 100%;
-		height: 100%;
 		text-align: center;
-		
 	}
 
 	#view-more-button a {
@@ -890,8 +883,8 @@ background-color: rgba(26, 26, 26, .85);
 	}
 
 	#social-media li {
-		padding-right: 1.5em;
-		padding-left: 1.5em;
+		padding-right: 4vw;
+		padding-left: 4vw;
 		display: inline;
 	}
 
@@ -1009,9 +1002,8 @@ background-color: rgba(26, 26, 26, .85);
 	}
 
   .video-thumbnail-row {
-		margin-left: 10%;
-		margin-right: 10%;
-		min-height: 200px;
+		margin-left: 7%;
+		margin-right: 7%;
 		height: 20vw;
 		display: -webkit-flex;
 		-webkit-align-items: center;
@@ -1022,22 +1014,28 @@ background-color: rgba(26, 26, 26, .85);
 	}
 	
 	.video-thumbnail {
-		margin-right: 3vw;
-		margin-left: 3vw;
+		background-color: black;
 		min-width: 150px;
 		min-height: 150px;
-		width: 20vw;
+		min-width: 200px;
+		width: 25vw;
 		height: 20vw;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.top-row {
 		margin-top: 4vw;
 	}
 	.middle-row {
-		margin-top: 4vw;
+		margin-top: 7vw;
+	}
+	
+	.bottom-row {
+		margin-bottom: 30px;
 	}
 	
 	.video-thumbnail img {
-		opacity: .7;
+		opacity: 1;
 		padding: 0;
 		object-fit: cover;
 		height: 100%;
@@ -1046,10 +1044,63 @@ background-color: rgba(26, 26, 26, .85);
 	}
 	
 	.video-thumbnail img:hover {
-		opacity: 1;
+		opacity: .8;
 		cursor: pointer;
 	}
 	
+	/******************
+	*******************
+	*** VACANT.HTML *** 
+	*******************
+	*******************/
+	
+	.film-fullscreen-banner {
+		transition: 1s ease;
+    height: 350px;
+		width: 100%;
+    margin-top: -100px;
+    background-image: url(../images/vacant.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	
+	.film-banner-title {
+    transition: 1s ease;
+		padding: 0;
+		height: 350px;
+		margin-top: -350px;
+		background-color: rgba(105, 105, 105, .5);
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		-webkit-justify-content: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.film-banner-title h1 {
+		color: white;
+		z-index: 50;
+		padding: 0;
+		margin: 0;
+		color: white;
+		z-index: 50;
+		font-size: 8vw;
+    font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		border-top: solid 2px white;
+    border-bottom: solid 2px white;
+	}
+	
+	.video-container {
+		width: 60%;
+		margin: 0 auto;
+	}
 	
 	
 	/******************
@@ -1071,15 +1122,20 @@ background-color: rgba(26, 26, 26, .85);
     background-repeat: no-repeat;
   }
 	
+	
+	.narrow  {
+		width: 60%;
+		margin: 0 auto;
+	}
+	
 	.logo-grid {
-		margin-left: 20%;
-		margin-right: 20%;
+		margin-left: 10%;
+		margin-right: 10%;
 		height: 100px;
 		display: -webkit-flex;
 		-webkit-align-items: center;
 		display: flex;
 		align-items: center;
-		opacity: .7;
 	}
 	
 	.skills-logo-grid .logo-grid {
@@ -1169,7 +1225,6 @@ background-color: rgba(26, 26, 26, .85);
 		background-color: white;
 		min-height: 100%;
 		height: auto;
-    padding-bottom: 150px;
 	}
   
   .about-fullscreen-banner {
@@ -1241,7 +1296,7 @@ background-color: rgba(26, 26, 26, .85);
 		-webkit-align-items: center;
 		display: flex;
 		align-items: center;
-		opacity: .7;
+		opacity: .9;
 	}
 
 	.about-logo-grid img {
