@@ -118,6 +118,10 @@
     height: auto;
     opacity: .5;
 	}
+	
+	video::-webkit-media-controls {
+		display: none !important;
+	}
 
 	.main-content {
 		display: -ms-flexbox;
