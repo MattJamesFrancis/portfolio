@@ -170,12 +170,20 @@
 		padding: 0;
 	}
 	
-	.featured-projects {
-		margin: 0 auto;
-		padding-right: 0;
-		padding-left: 0;
+	#featured-projects {
+		display: flex;
+		width: 100%;
+		height: 40vw;
+    margin-top: 3vw;
+		max-height: 300px;
+  }
+	
+	#featured-projects img {
+		opacity: .9;
+		width: 51%;
+		height: 100%;
+		object-fit: cover;
 	}
-  
   
 	.container img {
   	margin-top: 0px;
@@ -201,18 +209,7 @@
 	**** TECH SPECS ****
 	********************/
 
-	ul.tech-specs {
-		list-style-type: none;
-		padding: 0;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 100;
-		text-transform: uppercase;
-		font-size: 1.3rem;
-		letter-spacing: .2rem;
-		line-height: 1.5em;
-		margin-bottom: 0;
-	}
-	
+
 	#view-more-button {
 		display: -webkit-flex;
 		-webkit-justify-content: center;
@@ -220,29 +217,28 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 70vw;
+		height: 40vw;
 		width: 100%;
-		text-align: center;
 	}
 	
 	#view-more-button a {
-    font-weight: 300;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
-		font-size: 1.25em;
+		font-size: 1em;
 		font-weight: 500;
-		width: 10em;
     background-color: white;
-		color: rgba(26, 26, 26, .7);
-		transition: color .8s;
+		color: black;
     border: solid 2px rgba(26, 26, 26, .7);
+		transition: background-color;
+		border-radius: 0;
+	}
+	
+	#view-more-button a:hover {
+		color: white;
+		background-color: #999999;
 	}
 
-	#view-more-button a:hover {
-		text-decoration: none;
-		color: #b7a85c;
-	}
   
 	/*************
 	*** FOOTER ***
@@ -253,7 +249,7 @@
 		top: 0;
 		width: 100%;
 		height: 300px;
-background-color: rgba(26, 26, 26, .85);
+background-color: rgba(26, 26, 26, 1);
 	}
 
 	/********************************
@@ -338,7 +334,7 @@ background-color: rgba(26, 26, 26, .85);
 		width: 100%;
 		bottom: 25px;
 		color: white;
-		font-size: 1rem;
+		font-size: .75em;
 		text-transform: uppercase;
 		letter-spacing: .3rem;
 		text-align: center;
@@ -412,24 +408,59 @@ background-color: rgba(26, 26, 26, .85);
 		padding: 0;
 		margin: 0 auto;
 	}
-  
+	
 	.video-thumbnail-row {
-		display: -webkit-flex;
-		-webkit-align-items: center;
-		-webkit-justify-content: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		width: 100%;
 	}
 	
 	.video-thumbnail {
-/*		background-color: black;*/
+		opacity: .9;
 		min-width: 150px;
 		min-height: 150px;
-		min-width: 200px;
 		width: 100%;
-		height: 70vw;
+		height: 80vw;
+		overflow: hidden;
+	}
+
+	
+	.video-thumbnail img {
+		z-index: 1;
+		padding: 0;
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.video-thumbnail img:hover {
+		cursor: pointer;
+	}
+	
+ 
+	
+	@media only screen and (min-width: 500px) {
+		
+		.video-thumbnail-row {
+		width: 100%;
+	}
+	
+	.video-thumbnail {
+		float: left;
+		opacity: .9;
+		width: 33.3333vw;
+		height: 35vw;
+		overflow: hidden;
+	}
+
+	
+	.video-thumbnail img {
+		z-index: 1;
+		padding: 0;
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
+	}
+		
+		
 	}
 	
 
@@ -438,18 +469,17 @@ background-color: rgba(26, 26, 26, .85);
 	}
 	
 	.video-thumbnail img {
-		opacity: .85;
+		z-index: 1;
 		padding: 0;
 		object-fit: cover;
 		height: 100%;
 		width: 100%;
-		transition: opacity .2s;
 	}
 	
 	.video-thumbnail img:hover {
-		opacity: 1;
 		cursor: pointer;
 	}
+	
 	
 	/******************************
 	*******************************
@@ -992,9 +1022,21 @@ background-color: rgba(26, 26, 26, .85);
     margin-top: 15vw;
   }
   
-  .featured-projects {
+  #featured-projects {
+		display: flex;
+		width: 100%;
+		height: 40vw;
+		max-height: 400px;
     margin-top: 3vw;
   }
+	
+	#featured-projects img {
+		opacity: .9;
+		width: 51%;
+		height: 100%;
+		object-fit: cover;
+	}
+
   
   
   #view-more-button {
@@ -1148,7 +1190,7 @@ background-color: rgba(26, 26, 26, .85);
 		width: 100%;
 		bottom: 25px;
 		color: white;
-		font-size: 1rem;
+		font-size: 1em;
 		text-transform: uppercase;
 		letter-spacing: .3rem;
 		text-align: center;
@@ -1215,15 +1257,14 @@ background-color: rgba(26, 26, 26, .85);
 	}
 	
 	.video-thumbnail {
-		opacity: .9;
 		float: left;
-		min-width: 150px;
-		min-height: 150px;
-		min-width: 200px;
+		opacity: .9;
 		width: 33.3333vw;
 		height: 35vw;
+		max-height: 350px;
 		overflow: hidden;
 	}
+
 	
 	.video-thumbnail img {
 		z-index: 1;
@@ -1231,14 +1272,12 @@ background-color: rgba(26, 26, 26, .85);
 		object-fit: cover;
 		height: 100%;
 		width: 100%;
-		transition: height 1s ease;
 	}
 	
 	.video-thumbnail img:hover {
-		height: 105%;
 		cursor: pointer;
 	}
-
+	
 	
 	/******************************
 	*******************************
@@ -1345,6 +1384,7 @@ background-color: rgba(26, 26, 26, .85);
 	
 	
 	.narrow  {
+
 		padding: 0;
 		width: 60%;
 		margin: 0 auto;
