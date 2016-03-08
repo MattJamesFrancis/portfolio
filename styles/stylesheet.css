@@ -48,10 +48,10 @@
 
 	#banner-logo img {
 		position: absolute;
-		top: 10px;
-		left: 10px;
+		top: 20px;
+		left: 20px;
     min-height: 40px;
-		height: 10vw;
+		height: 8vw;
 		z-index: 10;
 	}
   
@@ -82,8 +82,8 @@
 		text-transform: uppercase;
     position: relative;
 		color: white;
-		font-size: 12vw;
-		line-height: 12vw;
+		font-size: 14vw;
+		line-height: 14vw;
     font-weight: 500;
 		letter-spacing: .1em;
     border-top: solid 2px white;
@@ -121,7 +121,7 @@
     min-height: 100%;
     width: auto;
     height: auto;
-    opacity: .5;
+    opacity: .66;
 	}
 	
 	video::-webkit-media-controls {
@@ -243,7 +243,7 @@
 		letter-spacing: .2em;
 		font-size: 1em;
 		font-weight: 500;
-		padding:  20px 35px 20px 35px;
+		padding:  10px 25px 10px 25px;
     background-color: white;
 		color: #212121;
     border: solid 2px #212121;
@@ -1040,9 +1040,9 @@ ul.tech-specs {
 
 	#banner-logo img {
 		position: absolute;
-		top: 10px;
-		left: 10px;
-		height: 80px;
+		top: 20px;
+		left: 20px;
+		height: 60px;
 		z-index: 10;
 	}
 
@@ -1057,13 +1057,12 @@ ul.tech-specs {
     min-height: 100%;
     width: auto;
     height: auto;
-		opacity: .5;
+		opacity: .66;
 	}
 	
 	.title {
-		height: 90%;
+		height: 100%;
 		width: 100%;
-		margin-top: 85px;
 		display: -webkit-box;
 		display: -moz-box;
 		display: -webkit-flex;
@@ -1077,6 +1076,7 @@ ul.tech-specs {
 	}
   
  .text {
+	 margin-top: 80px;
     position: relative;
     z-index: 1
   }
@@ -1088,7 +1088,7 @@ ul.tech-specs {
     transition: 1s ease;
     position: relative;
 		color: white;
-		font-size: 6em;
+		font-size: 8.5em;
     font-weight: 500;
 		line-height: 1em;
 		text-transform: uppercase;
@@ -1104,9 +1104,9 @@ ul.tech-specs {
     -o-transition: 1s ease;
     transition: 1s ease;
     float: right;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: .2em;
     color: white;
     position: relative;
@@ -1403,7 +1403,7 @@ ul.tech-specs {
 		margin: 0;
 		color: white;
 		z-index: 50;
-		font-size: 8vw;
+		font-size: 8em;
     font-weight: 500;
 		line-height: 1em;
 		text-transform: uppercase;
@@ -1504,7 +1504,7 @@ ul.tech-specs {
 	.caption ul {
 		text-align: left;
 		white-space: nowrap;
-		width: 65%;
+		width: 66%;
 		overflow: hidden;
 		margin-right: auto;
 		margin-left: auto;
