@@ -9,7 +9,6 @@
     margin: 0 0 0 0;
 		background-color: dimgray;
 		font-family: 'Roboto', sans-serif;
-		font-weight: 400;
     height: 100%;
   }
 	
@@ -23,7 +22,8 @@
 		position: relative;
 		z-index: 10;
     height: 75%;
-    overflow: hidden
+    overflow: hidden;
+		transition: 1s ease;
 	}
 	
 	nav {
@@ -331,7 +331,7 @@
 		margin-left: 7%;
 		margin-right: 7%;
 		text-transform: uppercase;
-		letter-spacing: .3rem;
+		letter-spacing: .3em;
 		display: inline;
 	}
 
@@ -355,7 +355,7 @@
 		font-size: .5em;
 		font-weight: 400;
 		text-transform: uppercase;
-		letter-spacing: .3rem;
+		letter-spacing: .3em;
 		text-align: center;
 		line-height: 1.5em;
 	}
@@ -373,7 +373,7 @@
   }
   
   #projects-header nav {
-    display: none;
+    opacity: 0;
   }
   
   .projects-fullscreen-banner {
@@ -423,9 +423,11 @@
 	}
 	
 	 section .thumbnail-row {
+		 width: 98%;
 		display: -webkit-flex;
 		display: flex;
 		align-items: center;
+		 justify-content: space-around;
 		margin:auto;
 	}
 	
@@ -454,11 +456,11 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: .5vw solid white;
+		border: 1vw solid white;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 33.333vw;
+		width: 33vw;
 		height: 35vw;
 		max-height: 350px;
 		overflow: hidden;
@@ -530,7 +532,7 @@
 	.caption ul {
 		text-align: left;
 		white-space: nowrap;
-		width: 60%;
+		width: 65%;
 		overflow: hidden;
 		margin-right: auto;
 		margin-left: auto;
@@ -552,13 +554,6 @@
 		font-weight: 400;
 		font-style: italic;
 	}
-	
-	@media only screen and (min-width: 500px) {
-		
-	
-		
-	}
-	
 
 	.bottom-row {
 		margin-bottom: 30px;
@@ -679,12 +674,13 @@ ul.tech-specs {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 100;
 		text-transform: uppercase;
-		font-size: 1.3rem;
-		letter-spacing: .2rem;
-		line-height: 2rem;
+		font-size: 1em;
+		letter-spacing: .2em;
+		line-height: 1.5em;
 		margin-bottom: 0;
 	}
-		
+	
+
 	/******************
 	*******************
 	*******************
@@ -910,7 +906,7 @@ ul.tech-specs {
 		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 7vw;
+		font-size: 5vw;
 		padding-top: 0;
 		margin-top: 0;
     padding-bottom: 25px;
@@ -922,8 +918,7 @@ ul.tech-specs {
 		margin-top: 5vw;
 		margin-right: auto;
 		margin-left: auto;
-		height: 100px;
-		width: 90%;
+		height: 70px;
 		display: -webkit-flex;
 		-webkit-align-items: center;
 		display: flex;
@@ -933,8 +928,8 @@ ul.tech-specs {
 	}
 
 	.about-logo-grid img {
-		max-height: 90%;
-		padding: 25px;
+		max-height: 70%;
+		padding: 5vw;
 		object-fit: contain;
 	}
 	
@@ -949,8 +944,8 @@ ul.tech-specs {
 		margin: 0 0 0 0;
 		background-color: dimgray;
 		font-family: 'Roboto', sans-serif;
-		font-weight: 400;
     height: 100%;
+		font-size: 14px;
 	}
 
 	/* HEADER & MAIN NAV */
@@ -960,6 +955,7 @@ ul.tech-specs {
 		z-index: 10;
     height: 95%;
     overflow: hidden;
+		transition: 1s ease;
 	}
 	
 	#home-page-header {
@@ -1002,12 +998,12 @@ ul.tech-specs {
 		margin-right: 10px;
 		margin-left: 10px;
 		font-size: .8em;
-    font-weight: 400;
 		text-transform: uppercase;
 		letter-spacing: .4em;
 	}
 
 	nav ul a {
+		font-weight: 500;
 		text-decoration: none;
     border: solid 2px white;
     padding-top: 5px;
@@ -1218,14 +1214,13 @@ ul.tech-specs {
 	}
 
 	#view-more-button a {
+		text-decoration: none;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
 		font-size: 1em;
+		padding:  20px 35px 20px 35px;
 		font-weight: 500;
-		width: 175px;
-		height: 50px;
-		padding-top: 13px;
     background-color: white;
 		color: #212121;
     border: solid 2px #212121;
@@ -1332,7 +1327,7 @@ ul.tech-specs {
 		margin-left: 7%;
 		margin-right: 7%;
 		text-transform: uppercase;
-		letter-spacing: .3rem;
+		letter-spacing: .3em;
 		display: inline;
 	}
 
@@ -1356,7 +1351,7 @@ ul.tech-specs {
 		font-size: .75em;
 		font-weight: 400;
 		text-transform: uppercase;
-		letter-spacing: .3rem;
+		letter-spacing: .3em;
 		text-align: center;
 		line-height: 1.75em;
 	}
@@ -1410,6 +1405,7 @@ ul.tech-specs {
 		z-index: 50;
 		font-size: 8vw;
     font-weight: 500;
+		line-height: 1em;
 		text-transform: uppercase;
 		letter-spacing: .2em;
 		border-top: solid 2px white;
@@ -1417,10 +1413,12 @@ ul.tech-specs {
 	}
 
   section .thumbnail-row {
+		width: 98%;
 		display: -webkit-flex;
 		display: flex;
 		align-items: center;
-		margin:auto;
+		justify-content: space-around;
+		margin: 0 auto;
 	}
 
 
@@ -1430,12 +1428,12 @@ ul.tech-specs {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: .5vw solid white;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 33.333vw;
+		width: 33.33vw;
 		height: 35vw;
+		border: 1vw solid white;
 		max-height: 350px;
 		overflow: hidden;
 		transition: width 1s ease;
@@ -1506,7 +1504,7 @@ ul.tech-specs {
 	.caption ul {
 		text-align: left;
 		white-space: nowrap;
-		width: 60%;
+		width: 65%;
 		overflow: hidden;
 		margin-right: auto;
 		margin-left: auto;
@@ -1785,25 +1783,44 @@ ul.tech-specs {
     background-size: cover;
     background-repeat: no-repeat;
   }
+	
+	.about-container {
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+	}
   
+	.col-sm-2 {
+		float: left;
+		width: 50%;
+	}
   #bio {
-    float: left;
 		height: 100%;
-		height: 100%;
-    width: 40%;
-    margin-left: 10vw;
-    padding-right: 5vw;
     border-right: solid 1px black;
+		margin: 0 auto;
   }
+	
+	article h2 {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
   
-  #bio p {
+  article p {
+		padding-left: 10%;
+		padding-right: 10%;
     font-size: 1.2em;
   }
-  
+	
+	
   .signature {
     margin-top: 50px;
-    padding-top: 0;
+    padding-left: 10%;
   }
+	
+	.signature h3 {
+		font-size: 1.2em;
+		font-weight: 300;
+	}
   
   .signature img {
     margin-top: 0;
@@ -1813,14 +1830,8 @@ ul.tech-specs {
   }
   
   #recognition {
-    float: left;
-    padding-left: 5vw;
-    margin-right: 10vw;
-    width: 40%;
-  }
-  
-  #recognition p {
-    font-size: 1.2em;
+		height: 100%;
+		margin: 0 auto;
   }
   
   .about-heading {
@@ -1837,18 +1848,19 @@ ul.tech-specs {
 	}
 	
 	.about-logo-grid {
-		margin-left: 0;
-		margin-right: 0;
-		height: 100px;
+		height: 90px;
 		display: -webkit-flex;
 		-webkit-align-items: center;
+		-webkit-justify-content: center;
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		opacity: .9;
 	}
 
 	.about-logo-grid img {
-		max-height: 60%;
+		padding: 5%;
+		max-height: 50%;
 		object-fit: contain;
 	}
 	
@@ -1936,12 +1948,6 @@ ul.tech-specs {
     height: 730px;
   }
 
-  #projects-banner-logo {
-    height: 730px;
-    margin-top: -730px;
-  }
-	
-	
 	/******************
 	*******************
 	*******************
