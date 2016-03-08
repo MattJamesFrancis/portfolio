@@ -10,23 +10,74 @@
     
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   
+		
+		<title>Samuel Harrison Wolfe - Portfolio</title>
     
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
-    <!-- CSS & Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,300italic,500,100' rel='stylesheet' type='text/css'> 
-    <link rel="stylesheet" href="styles/stylesheet.css">
-    <link rel="stylesheet" href="styles/pure-drawer.css">
+   
+		<!-- CSS & Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,300italic,500,500italic,100' rel='stylesheet' type='text/css'> 
 		
-    <title>Samuel Harrison Wolfe - Portfolio</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+ 
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+			$(function() {
+				$("")
+				
+				
+			});
+			
+			
+//			$(".narrow").hover(highlight, highlight);
+//			$(".narrow").click(fnClick1);
+//			$(".narrow").dblclick(fnClick2);
+//				
+//			$(window).resize(fnResize);
+//				
+//			});
+//			
+//			function highlight(evt) {
+//				$(".narrow").toggleClass("highlighted");
+//			}
+//			
+//			function fnClick1(){
+//				$(".narrow").html("Click");
+//			}	
+//			
+//			function fnClick2(){
+//				$(".narrow").html("Double Click");
+//			}
+//			
+//			function fnResize(){
+//				$(".narrow").html("Browswer window resized");
+//			}
+					//create new content
+//				var newP = $("<p>");
+//				$(".intro p:first").css("border", "3px solid red");
+//				$(".new-heading").html(newP);
+//				$(".narrow").prepend("Watch This!!!");
+//				$(".narrow").html("<p>I just replaced all the text</p>");
+//				$(".narrow").text("<p>Now I'm using the text function</p>");
+//				$("a").css("border", "4px solid red");
+		
+		
+		</script>
+		
+		<style type="text/css">
+			
+		
+		</style>
+    
   </head>
   
   <body>
 		
-		<header>
+		<header id="home-page-header">
 			<!---------------
 				---------------
 				MAIN NAVIGATION 
@@ -87,6 +138,9 @@
 			
 			<h2 class="heading">Welcome</h2>
 			
+			<div class="new-heading">
+			</div>
+			
 			<section class="intro">
 				<p class="narrow mobile-narrow">Lorem ipsum dolor sit amet, nostrum senserit mnesarchum duo in. Eu stet mediocritatem eum, ne elitr oblique equidem vix, has an habemus accusam. Lorem ipsum dolor sit amet, nostrum senserit mnesarchum duo in. Eu stet mediocritatem eum, ne elitr oblique equidem vix, has an habemus accusam.</p><br>
 				<p class="narrow mobile-narrow">Lorem ipsum dolor sit amet, nostrum senserit mnesarchum duo in. Eu stet mediocritatem eum, ne elitr oblique equidem vix, has an habemus accusam. Lorem ipsum dolor sit amet, nostrum senserit mnesarchum duo in. Eu stet mediocritatem eum, ne elitr oblique equidem vix, has an habemus accusam.</p>
@@ -97,8 +151,26 @@
 			<h2 class="heading">Featured<br>Projects</h2>
 			
 			<section id="featured-projects">
-				<a href="vacant.html"><img src="images/vacant-2.jpg"></a>
-				<a href="over-under.html"><img src="images/over-under-1.jpg"></a>
+				<a class="homepage-thumbnail vacant" href="vacant.html">
+					<div class="caption">
+						<ul>
+							<li><span class="italic">Vacant</span></li>
+							<li>Writer, Director, DP</li>
+							<li>Spokane, WA</li>
+						</ul>
+					</div>
+			
+				</a>
+				
+				<a class="homepage-thumbnail over-under" href="over-under.html">
+					<div class="caption">
+						<ul>
+							<li><span class="italic">Over/Under</span></li>
+							<li>Director of Photography</li>
+							<li>Spokane, WA</li>
+						</ul>
+					</div>
+				</a>
 			</section>
 
 			<div id="view-more-button">
@@ -156,11 +228,6 @@
 			<p>Designed and developed by<br>Samuel Harrison Wolfe | 2016</p>
 		</footer>
 
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-		<!-- Minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 					
   </body>
   
