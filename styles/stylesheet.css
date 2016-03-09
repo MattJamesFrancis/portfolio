@@ -241,9 +241,9 @@
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .2em;
-		font-size: 1em;
+		font-size: .75em;
 		font-weight: 500;
-		padding:  10px 25px 10px 25px;
+		padding:  10px 15px 10px 15px;
     background-color: white;
 		color: #212121;
     border: solid 2px #212121;
@@ -712,7 +712,11 @@ ul.tech-specs {
 	}
 	
 	.top-row {
-		margin-top: 5vw;
+		margin-top: 5vh;
+	}
+	
+	.middle-row {
+		margin-top: .5em;
 	}
   
   .main-content-bottom {
@@ -738,7 +742,8 @@ ul.tech-specs {
 	.mobile-logo-grid {
 		width: 100%;
 		max-width: 600px;
-		margin: 0 auto;
+		margin-right: auto;
+		margin-left: auto;
 		height: 10vw;
 		display: -webkit-flex;
 		-webkit-justify-content: center;
@@ -750,12 +755,14 @@ ul.tech-specs {
 	
 	.company-logo-grid {
 		width: 70%;
-		margin: 0 auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	
 	.skills-logo-grid {
 		width: 80%;
-		margin: 0 auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	
   .mobile-col-sm-3 {
@@ -775,30 +782,29 @@ ul.tech-specs {
 	}
   
   .education-mobile {
-    width: 95%;
+    width: 75%;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
     display: -webkit-flex;
 		-webkit-flex-direction: row;
 		-webkit-align-items: center;
-		-webkit-justify-content: center;
+		-webkit-justify-content: space-around;
 		display: flex;
-		align-items: center;
-		justify-content: center;
+		align-items: flex-start;
+		justify-content: space-around;
 		flex-direction: row;
   }
   
 	
 	.education-info-mobile {
-		width: 50%;
+		width: 70%;
 	}
   
   .education-info-mobile ul {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
-    margin-right: 10vw;
   }
   
   .university-seal {
@@ -810,7 +816,7 @@ ul.tech-specs {
   .university-seal img {
     object-fit: contain;
 		position: absolute;
-		top: 50%;
+		top: 25%;
 		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
@@ -879,6 +885,10 @@ ul.tech-specs {
     margin-top: 50px;
     padding-top: 0;
   }
+	
+	.signature h3 {
+		font-weight: 300;
+	}
   
   .signature img {
     margin-top: 0;
@@ -915,10 +925,10 @@ ul.tech-specs {
 	}
 	
 	.about-logo-grid {
-		margin-top: 5vw;
+		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
-		height: 70px;
+		height: 50px;
 		display: -webkit-flex;
 		-webkit-align-items: center;
 		display: flex;
@@ -928,7 +938,7 @@ ul.tech-specs {
 	}
 
 	.about-logo-grid img {
-		max-height: 70%;
+		max-height: 80%;
 		padding: 5vw;
 		object-fit: contain;
 	}
@@ -1216,7 +1226,7 @@ ul.tech-specs {
 		text-transform: uppercase;
 		letter-spacing: .2em;
 		font-size: 1em;
-		padding:  20px 35px 20px 35px;
+		padding:  15px 30px 15px 30px;
 		font-weight: 500;
     background-color: white;
 		color: #212121;
@@ -1652,6 +1662,10 @@ ul.tech-specs {
 		margin-top: 5vw;
 	}
 	
+	.middle-row {
+		margin-top: 10px;
+	}
+	
 	.company-logo-grid {
 		padding: 0;
 		width: 70%;
@@ -1699,10 +1713,10 @@ ul.tech-specs {
 		display: -webkit-flex;
 		-webkit-flex-direction: row;
 		-webkit-align-items: center;
-		-webkit-justify-content: center;
+		-webkit-justify-content: space-around;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		flex-direction: row;
 	}
 	
@@ -1725,11 +1739,14 @@ ul.tech-specs {
 	
 	.degree-certificate {
 		font-size: 1.25em;
-		font-weight: 500;
+		font-weight: 400;
 	}
 	
 	.school-description {
+		margin-top: 10px;
 		font-weight: 300;
+		font-size: 1.2em;
+		line-height: 1.3em;
 		font-style: italic;
 	}
 	
