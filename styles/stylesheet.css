@@ -1104,9 +1104,9 @@ ul.tech-specs {
     -o-transition: 1s ease;
     transition: 1s ease;
     float: right;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: .2em;
     color: white;
     position: relative;
@@ -1145,15 +1145,12 @@ ul.tech-specs {
 		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 5vw;
+		font-size: 5em;
 		padding-top: 0;
 		margin-top: 15vw;
 		opacity: .4;
 		line-height: 1.2em;
-	}
-
-	.intro {
-		margin-top: 3vw;
+		margin-bottom: 6vw;
 	}
 	
 	.main-content-top {
@@ -1644,7 +1641,7 @@ ul.tech-specs {
 		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 5vw;
+		font-size: 5em;
 		padding-top: 0;
 		opacity: .4;
 		line-height: 1.2em;
