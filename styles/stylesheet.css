@@ -412,6 +412,7 @@
 		letter-spacing: .2em;
 		border-top: solid 2px white;
     border-bottom: solid 2px white;
+		margin-top: 30px;
 	}
 	
 	 section .thumbnail-row {
@@ -1026,12 +1027,6 @@ ul.tech-specs {
 
 	/* FULLSCREEN BANNER */
 	
-	.color-overlay {
-		background-color: dimgray;
-		z-index: 500;
-		height: 100%;
-	}
-
 	#banner-logo {
     position: absolute;
     top: 0;
@@ -1130,7 +1125,6 @@ ul.tech-specs {
 		flex-direction: column;
 		height: auto;
 		min-height: 100%;
-		background-color: white;
 	}
 
 	.main-content p {
@@ -1408,6 +1402,7 @@ ul.tech-specs {
 		letter-spacing: .2em;
 		border-top: solid 2px white;
     border-bottom: solid 2px white;
+		margin-top: 40px;
 	}
 
   section .thumbnail-row {
