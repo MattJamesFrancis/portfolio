@@ -525,8 +525,6 @@
 		white-space: nowrap;
 		width: 65%;
 		overflow: hidden;
-		margin-right: auto;
-		margin-left: auto;
 		padding: 5px;
 		list-style-type: none;
 		background-color: rgba(255, 255, 255, 1);
@@ -1504,8 +1502,6 @@ ul.tech-specs {
 		white-space: nowrap;
 		width: 66%;
 		overflow: hidden;
-		margin-right: auto;
-		margin-left: auto;
 		padding: 5px;
 		list-style-type: none;
 		background-color: rgba(255, 255, 255, 1);
