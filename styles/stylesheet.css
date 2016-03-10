@@ -369,10 +369,10 @@
   }
   
   .projects-fullscreen-banner {
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
 		background-image: url(../images/v-park.jpg);
     background-size: cover;
     background-position: center;
@@ -713,10 +713,10 @@ ul.tech-specs {
   }
   
 	.resume-fullscreen-banner {
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
 		background-image: url(../images/samuel-beach.jpg);
     background-size: cover;
     background-position: center;
@@ -852,7 +852,7 @@ ul.tech-specs {
 	}
   
   .about-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 70vw;
 		width: 100%;
     margin-top: -100px;
@@ -1367,7 +1367,7 @@ ul.tech-specs {
   }
   
   .projects-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
@@ -1618,7 +1618,7 @@ ul.tech-specs {
 	*******************/
 	
 	.resume-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
@@ -1785,7 +1785,7 @@ ul.tech-specs {
 	}
   
   .about-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
