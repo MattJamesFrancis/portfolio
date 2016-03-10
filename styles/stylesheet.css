@@ -205,10 +205,12 @@
 	.project-description {
 		margin-top: 5px;
 	}
+	
 
 	.bold {
 		font-weight: 300;
 	}
+
 
 	/*******************
 	**** TECH SPECS ****
@@ -223,7 +225,7 @@
 		justify-content: center;
 		align-items: center;
 		height: 80vw;
-		max-height: 300px;
+		max-height: 250px;
 		width: 100%;
 	}
 	
@@ -667,7 +669,7 @@ ul.tech-specs {
 		text-transform: uppercase;
 		font-size: 1em;
 		letter-spacing: .2em;
-		line-height: 1.5em;
+		line-height: 1.3em;
 		margin-bottom: 0;
 	}
 	
@@ -1254,7 +1256,7 @@ ul.tech-specs {
 		text-transform: uppercase;
 		font-size: 1.3rem;
 		letter-spacing: .2rem;
-		line-height: 2rem;
+		line-height: 1.5rem;
 		margin-bottom: 0;
 	}
 
@@ -1599,8 +1601,8 @@ ul.tech-specs {
 	}
 	
 	.film-greeting {
-		width: 60%;
-		max-width: 600px;
+		width: 70%;
+		max-width: 700px;
 		margin: 0 auto;
 	}
 	
