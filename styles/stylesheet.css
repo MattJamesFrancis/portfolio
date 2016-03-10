@@ -187,7 +187,7 @@
     margin-top: 3vw;
 		max-height: 300px;
 		float: left;
-		transition: width .5s ease;
+		transition: width 1s ease;
   }
 	
 	#featured-projects a:hover {
@@ -439,7 +439,7 @@
 		overflow: hidden;
 		transition: width 1s ease;	
 	}
-
+	
 
 	.thumbnail {
 		text-decoration: none;
@@ -483,15 +483,15 @@
 	}
 
 	.stonewall {
-		background-image: url(../images/stonewall-bw.jpg);
+		background-image: url(../images/stonewall-lighter.jpg);
 	}
 
 	.vacant {
-		background-image: url(../images/vacant-2-bw.jpg);
+		background-image: url(../images/vacant-2-light.jpg);
 	}
 
 	.over-under {
-		background-image: url(../images/over-under-bw.jpg);
+		background-image: url(../images/over-under-light.jpg);
 	}
 
 	.thumbnail:hover {
@@ -502,7 +502,7 @@
 	/* CAPTION STYLES */
 	
 	.caption {
-		background-color: rgba(0, 0, 0, .4);
+		background-color: rgba(115, 115, 115, .5);
 		display: -webkit-flex;
 		-webkit-justify-content: center;
 		-webkit-align-items: center;
@@ -1463,15 +1463,15 @@ ul.tech-specs {
 	}
 
 	.stonewall {
-		background-image: url(../images/stonewall.jpg);
+		background-image: url(../images/stonewall-lighter.jpg);
 	}
 
 	.vacant {
-		background-image: url(../images/vacant2.jpg);
+		background-image: url(../images/vacant-2-light.jpg);
 	}
 
 	.over-under {
-		background-image: url(../images/over-under.jpg);
+		background-image: url(../images/over-under-light.jpg);
 	}
 
 	.thumbnail:hover {
@@ -1482,6 +1482,7 @@ ul.tech-specs {
 	/* CAPTION STYLES */
 
 	.caption {
+		background-color: rgba(115, 115, 115, .5);
 		display: -webkit-flex;
 		-webkit-justify-content: center;
 		-webkit-align-items: center;
