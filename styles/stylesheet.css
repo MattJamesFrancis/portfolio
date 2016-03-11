@@ -156,10 +156,10 @@
   .heading {
 		font-weight: 500;
 		text-align: center;
-		letter-spacing: .5em;
+		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 5vw;
+		font-size: 8vw;
     opacity: .4;
 		margin-top: 15vw;
 	}
@@ -371,10 +371,10 @@
   }
   
   .projects-fullscreen-banner {
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
 		background-image: url(../images/v-park.jpg);
     background-size: cover;
     background-position: center;
@@ -408,12 +408,14 @@
 		z-index: 50;
 		color: white;
 		z-index: 50;
-		font-size: 8vw;
+		font-size: 12vw;
     font-weight: 500;
 		text-transform: uppercase;
 		letter-spacing: .2em;
 		border-top: solid 2px white;
     border-bottom: solid 2px white;
+		margin-top: 50px;
+		line-height: 1em;
 	}
 	
 	 section .thumbnail-row {
@@ -527,8 +529,6 @@
 		white-space: nowrap;
 		width: 65%;
 		overflow: hidden;
-		margin-right: auto;
-		margin-left: auto;
 		padding: 5px;
 		list-style-type: none;
 		background-color: rgba(255, 255, 255, 1);
@@ -697,7 +697,7 @@ ul.tech-specs {
 		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 5vw;
+		font-size: 8vw;
 		padding-top: 0;
 		opacity: .4;
 		line-height: 1.2em;
@@ -717,10 +717,10 @@ ul.tech-specs {
   }
   
 	.resume-fullscreen-banner {
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
 		background-image: url(../images/samuel-beach.jpg);
     background-size: cover;
     background-position: center;
@@ -732,48 +732,54 @@ ul.tech-specs {
   }
 	
 	
-	.mobile-logo-grid {
-		width: 100%;
-		max-width: 600px;
+	.company-logo-grid {
+		padding: 0;
+		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
-		height: 10vw;
+		margin-top: 10vw;
+		
+	}
+	
+	.logo-grid {
 		display: -webkit-flex;
-		-webkit-justify-content: center;
 		-webkit-align-items: center;
 		display: flex;
-		justify-content: center;
+		align-items: center;
+		width: 100%;
+		max-width: 650px;
+		margin: 0 auto;
+	}
+	
+	.mobile-col-sm-3 {
+		width: 25%;
+		height: 50px;
+		padding: 3vw;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		display: flex;
 		align-items: center;
 	}
 	
-	.company-logo-grid {
-		width: 70%;
-		margin-right: auto;
-		margin-left: auto;
+	.logo-grid img {
+		display: block;
+		width: 100%;
+		height: auto;
+		opacity: .8;
 	}
 	
 	.skills-logo-grid {
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
+		margin-top: 10vw;
 	}
 	
-  .mobile-col-sm-3 {
-    width: 25%;
-    margin-bottom: 3vw;
-  }
-  
-  .mobile-logo-grid img {
-		padding: 2vw;
-    opacity: .8;
-    max-height: 80%;
-		object-fit: contain;
-  }
-  
 	.skills-logo-grid img {
-		max-height: 70%;
+		display: block;
+		width: 100%;
+		height: auto;
 	}
-  
   .education-mobile {
     width: 75%;
     height: 150px;
@@ -854,7 +860,7 @@ ul.tech-specs {
 	}
   
   .about-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 70vw;
 		width: 100%;
     margin-top: -100px;
@@ -909,12 +915,12 @@ ul.tech-specs {
 		letter-spacing: .3em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 5vw;
+		font-size: 8vw;
 		padding-top: 0;
 		margin-top: 0;
     padding-bottom: 25px;
 		opacity: .4;
-		line-height: 1.2em;
+		line-height: 1.5em;
 	}
 	
 	.about-logo-grid {
@@ -1028,12 +1034,6 @@ ul.tech-specs {
 
 	/* FULLSCREEN BANNER */
 	
-	.color-overlay {
-		background-color: dimgray;
-		z-index: 500;
-		height: 100%;
-	}
-
 	#banner-logo {
     position: absolute;
     top: 0;
@@ -1132,13 +1132,12 @@ ul.tech-specs {
 		flex-direction: column;
 		height: auto;
 		min-height: 100%;
-		background-color: white;
 	}
 
 	.main-content p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 1.2em;
+		font-size: 1.4em;
 		line-height: 1.5em;
 	}
 
@@ -1176,6 +1175,7 @@ ul.tech-specs {
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
+		background-color: green;
 	}
 	
 	.homepage-thumbnail {
@@ -1369,7 +1369,7 @@ ul.tech-specs {
   }
   
   .projects-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
@@ -1410,6 +1410,7 @@ ul.tech-specs {
 		letter-spacing: .2em;
 		border-top: solid 2px white;
     border-bottom: solid 2px white;
+		margin-top: 40px;
 	}
 
   section .thumbnail-row {
@@ -1507,8 +1508,6 @@ ul.tech-specs {
 		white-space: nowrap;
 		width: 66%;
 		overflow: hidden;
-		margin-right: auto;
-		margin-left: auto;
 		padding: 5px;
 		list-style-type: none;
 		background-color: rgba(255, 255, 255, 1);
@@ -1622,7 +1621,7 @@ ul.tech-specs {
 	*******************/
 	
 	.resume-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
@@ -1663,39 +1662,50 @@ ul.tech-specs {
 	.company-logo-grid {
 		padding: 0;
 		width: 70%;
-		margin: 0 auto;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 10vw;
 		
 	}
 	
 	.logo-grid {
-		width: 100%;
-		height: 10vw;
-		max-width: 600px;
-		margin: 0 auto;
 		display: -webkit-flex;
 		-webkit-align-items: center;
-		-webkit-justify-content: space-around;
 		display: flex;
 		align-items: center;
-		justify-content: space-around;
-	
+		width: 100%;
+		max-width: 650px;
+		margin: 0 auto;
 	}
 	
 	.col-sm-3 {
-		margin: 0 auto;
 		width: 25%;
-		
+		height: 50px;
+		padding: 20px;
+		display: -webkit-flex;
+		-webkit-align-items: center;
+		display: flex;
+		align-items: center;
 	}
 	
 	.logo-grid img {
-		padding: 15px;
-		max-height: 70%;
-		object-fit: contain;
+		display: block;
+		width: 100%;
+		height: auto;
 		opacity: .8;
 	}
 	
+	.skills-logo-grid {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 10vw;
+	}
+	
 	.skills-logo-grid img {
-		max-height: 70%;
+		display: block;
+		width: 100%;
+		height: auto;
 	}
 	
 	
@@ -1782,7 +1792,7 @@ ul.tech-specs {
 	}
   
   .about-fullscreen-banner {
-    transition: 1s ease;
+    transition: height 1s ease;
     height: 530px;
 		width: 100%;
     margin-top: -100px;
@@ -1826,7 +1836,7 @@ ul.tech-specs {
   }
 	
 	.signature h3 {
-		font-size: 1.2em;
+		font-size: 1.4em;
 		font-weight: 300;
 	}
   
@@ -1844,10 +1854,10 @@ ul.tech-specs {
   
   .about-heading {
 		font-weight: 500;
-		letter-spacing: .3em;
+		letter-spacing: .2em;
 		text-transform: uppercase;
 		color: black;
-		font-size: 2.5vw;
+		font-size: 2.5em;
 		padding-top: 0;
 		margin-top: 0;
     padding-bottom: 25px;
