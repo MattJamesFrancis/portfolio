@@ -1175,7 +1175,6 @@ ul.tech-specs {
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
-		background-color: green;
 	}
 	
 	.homepage-thumbnail {
@@ -1497,13 +1496,17 @@ ul.tech-specs {
 		height: 100%;
 		opacity: 0;
 		transition: opacity 1s ease;
+		-webkit-transform: translateZ(0);
 	}
 
 	.caption:hover {
 		opacity: 1;
+	
 } 
 
 	.caption ul {
+		position: relative;
+		z-index: 1;
 		text-align: left;
 		white-space: nowrap;
 		width: 66%;
