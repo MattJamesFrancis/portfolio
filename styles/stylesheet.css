@@ -169,7 +169,6 @@
 	.featured-projects {
 		width: 100%;
 		margin: auto;
-
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		-webkit-flex-direction: column;
@@ -1155,10 +1154,22 @@ ul.tech-specs {
   }
 	
 	.featured-projects {
-		width: 100%;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex;
+	}
+	
+	#gallery-overlay-1 {
+		background-color: rgba(102,102,102, .33);
+		width: 90%;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		height: 66vw;
+		margin-top: -71vw;
 	}
 	
 	.homepage-thumbnail {
@@ -1482,8 +1493,30 @@ ul.tech-specs {
 		padding-top: 15vw;
 	}
 	
+	.gallery-overlay-2 {
+		position: relative;
+		background-color: rgba(102,102,102, .2);
+		height: 30vw;
+		margin-top: -30vw;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		pointer-events: none;
+	}
+	
+	.gallery-overlay-3 {
+		position: relative;
+		background-color: rgba(102,102,102, .2);
+		height: 60vw;
+		margin-top: -60vw;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		pointer-events: none;
+	}
+	
   section .thumbnail-row {
-		width: 100%;
+		width: 90%;
 		display: -webkit-flex;
 		display: flex;
 		align-items: center;
@@ -1502,7 +1535,7 @@ ul.tech-specs {
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 33.33vw;
-		height: 40vw;
+		height: 30vw;
 		max-height: 400px;
 		overflow: hidden;
 		transition: width .75s ease;
