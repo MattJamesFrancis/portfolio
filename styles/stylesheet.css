@@ -382,6 +382,9 @@
 	}
 	
 	input[type=submit] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 		width: 100px;
 		border: 2px solid white;
 		margin-top: 50px;
