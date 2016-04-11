@@ -1114,7 +1114,7 @@ ul.tech-specs {
 		position: absolute;
 		top: 20px;
 		left: 20px;
-		height: 60px;
+		height: 65px;
 		z-index: 10;
 	}
 
@@ -1129,6 +1129,7 @@ ul.tech-specs {
     min-height: 100%;
     width: auto;
     height: auto;
+		
 	}
 	
 	.title {
@@ -1156,10 +1157,6 @@ ul.tech-specs {
   }
   
 	.text h1 {
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
     position: relative;
 		color: white;
 		font-size: 9em;
