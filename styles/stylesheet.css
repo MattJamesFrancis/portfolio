@@ -21,7 +21,7 @@
 	header {
 		position: relative;
 		z-index: 10;
-    height: 66%;
+    height: 75%;
     overflow: hidden;
 		transition: height 1s ease;
 	}
@@ -48,7 +48,7 @@
 	
 	#sw-logo {
 		position: absolute;
-		top: 20px;
+		top: 35px;
 		left: 20px;
 		height: 8vw;
 		z-index: 10;
@@ -56,11 +56,11 @@
 	
 	#mobile-menu-icon {
 		position: absolute;
-		top: 20px;
+		top: 40px;
 		right: 0px;
 		margin-right: 20px;
 		z-index: 10;
-		height: 30px;
+		height: 20px;
 	}
 
 
@@ -191,7 +191,7 @@
 	}
 
 	.featured-projects {
-		width: 80%;
+		width: 90%;
 		margin: auto;
 		display: -ms-flexbox;
 		display: -webkit-flex;
@@ -223,7 +223,7 @@
 		align-items: center;
 		height: 80vw;
 		max-height: 250px;
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 	}
 	
@@ -265,7 +265,7 @@
 		position: relative;
 		top: 0;
 		width: 100%;
-		height: 750px;
+		height: 700px;
 		padding-bottom: 75px;
 		background-color:rgba(55,55,55,1);
 	}
@@ -324,7 +324,7 @@
 		align-items: center;
 		margin: 0 auto;
 		padding: 0;
-		width: 80%;
+		width: 90%;
 		text-align: center;
 	}
 
@@ -340,6 +340,9 @@
 		display: inline;
 	}
 
+	.footer-middle {
+		margin-top: 20px;
+	}
 	#contact a {
 		border: 2px solid white;
 		padding: 15px 15px;
@@ -402,7 +405,7 @@
 	}
 	
 	input {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 	
 	#email-address {
@@ -411,14 +414,14 @@
 		text-align: center;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		width: 80%;
+		width: 90%;
 	}
 	input[type=submit] {
 		padding: 15px 15px;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
-		width: 80%;
+		width: 90%;
 		border: 2px solid white;
 		background-color:rgba(55,55,55,1);
 		color: white;
@@ -484,7 +487,7 @@
     background-position: center;
     background-repeat: no-repeat;
 		width: 100%;
-		height: 66%;
+		height: 75%;
     margin-top: -100px;
 		overflow: hidden;
 	}
@@ -495,7 +498,7 @@
     -o-transition: 1s ease;
     transition: 1s ease;
 		padding: 0;
-    height: 66%;
+    height: 75%;
   	position: absolute;
 		top: 0;
 		width: 100%;
@@ -740,7 +743,7 @@ ul.tech-specs {
     background-position: center;
     background-repeat: no-repeat;
 		width: 100%;
-		height: 66%;
+		height: 75%;
     margin-top: -100px;
 		overflow: hidden;
   }
@@ -755,15 +758,16 @@ ul.tech-specs {
 		position: relative;
 		display: inline-block;
 		text-align: center;
-		width: 35%;
+		width: 40%;
 	}
 
 	.logo-grid img {
 		margin-right: auto;
 		margin-left: auto;
 		display: block;
-		width: 66%;
+		width: 80%;
 		height: auto;
+		max-width: 150px;
 	}
 	
 	.skills-logo-grid {
