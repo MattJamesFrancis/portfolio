@@ -12,6 +12,55 @@
     height: 100%;
   }
 	
+	/******************
+	*******************
+	*** MOBILE MENU ***
+	*******************
+	*******************/
+	
+	#mobile-menu {
+		position: fixed;
+		z-index: 0;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	
+	#mobile-menu img {
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		height: 8.5vw;
+		margin-top: 75px;
+	}
+	
+	#mobile-nav ul {
+		margin-top: 25px;
+		text-align: center;
+		opacity: 1;
+	}
+	
+	#mobile-nav ul li {
+		letter-spacing: 1px;
+		font-weight: 300;
+		font-size: 17px;
+		padding: 10px;
+		color: black;
+	}
+
+	#mobile-nav ul li a {
+		text-decoration: none;
+		color: black;
+		transition: color 1s ease;
+	}
+	
+	#mobile-nav ul li a:hover {
+		color: red;
+	}
+	
+
+	
 	/*****************
 	******************
 	*** INDEX.HTML ***
