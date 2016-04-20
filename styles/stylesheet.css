@@ -45,16 +45,27 @@
 		height: 75%;
 		width: 100%;
 	}
-
-	#banner-logo img {
+	
+	#sw-logo {
 		position: absolute;
 		top: 20px;
 		left: 20px;
-    min-height: 40px;
 		height: 8vw;
 		z-index: 10;
 	}
-  
+	
+	#mobile-menu-icon {
+		position: absolute;
+		z-index: 10;
+		height: 75px;
+	}
+
+	
+	#mobile-menu-icon {
+		position: absolute;
+		right: 0px;
+	}
+
   .title {
 		position: relative;
 		z-index: 1;
@@ -72,11 +83,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: rgba(0,0,0, .5);
+		background-color: rgba(0,0,0, .25);
 	}
 	
 	.title img {
-		height: 25vw;
+		height: 20vw;
 	}
   
   .text {
@@ -123,10 +134,10 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%)translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
-    min-width: 100%;
+    /*min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: auto;*/
+    height: 100%;;
 	}
 	
 	video::-webkit-media-controls {
@@ -148,14 +159,19 @@
 	.main-content p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 1.2em;
+		font-size: .95em;
 		line-height: 1.5em;
 	}
 	
 	.mobile-narrow {
-		width: 85%;
+		width: 90%;
 		max-width: 500px;
 		margin: 0 auto;
+	}
+	
+	
+	.middle-paragraph {
+		margin-top: 35px;
 	}
 
   .heading {
@@ -209,10 +225,12 @@
 		align-items: center;
 		height: 80vw;
 		max-height: 250px;
-		width: 100%;
+		width: 80%;
+		margin: 0 auto;
 	}
 	
 	#view-more-button a {
+		width: 100%;
 		text-align: center;
 		text-decoration: none;
 		font-family: 'Roboto', sans-serif;
@@ -220,7 +238,7 @@
 		letter-spacing: .2em;
 		font-size: .75em;
 		font-weight: 500;
-		padding:  10px 15px 10px 15px;
+		padding: 15px 15px;
     background-color: white;
 		color: #212121;
     border: solid 2px #212121;
@@ -446,12 +464,12 @@
     -moz-transition: height 1s ease;
     -o-transition: height 1s ease;
     transition: height 1s ease;
-		background-image: url(../images/v-park.jpg);
+		background-image: url(../images/lens.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 		width: 100%;
-		height: 70vw;
+		height: 66%;
     margin-top: -100px;
 		overflow: hidden;
 	}
@@ -462,9 +480,11 @@
     -o-transition: 1s ease;
     transition: 1s ease;
 		padding: 0;
-    height: 70vw;
-    margin-top: -70vw;
-		background-color: rgba(105, 105, 105, .4);
+    height: 66%;
+  	position: absolute;
+		top: 0;
+		width: 100%;
+		background-color: rgba(0,0,0, .66);
     display: -webkit-flex;
     -webkit-align-items: center;
     -webkit-justify-content: center;
@@ -473,20 +493,20 @@
 		justify-content: center;
 	}
   
-  
-  .banner-title h1 {
+  	.banner-title h1 {
 		color: white;
 		z-index: 50;
+		padding: 0;
+		margin: 0;
 		color: white;
 		z-index: 50;
-		font-size: 12vw;
-    font-weight: 500;
+		font-size: 10vw;
+    font-weight: 100;
+		line-height: 1em;
 		text-transform: uppercase;
 		letter-spacing: .2em;
-		border-top: solid 2px white;
-    border-bottom: solid 2px white;
-		margin-top: 50px;
-		line-height: 1em;
+		padding: 10px;
+		border: 2px solid white;
 	}
 	
 	 section .thumbnail-row {
@@ -602,21 +622,21 @@
 		overflow: hidden;
 		padding: 5px;
 		list-style-type: none;
-		border: 2px solid white;
-		opacity: .5;
+		border: 1px solid white;
+
 	}
 
 	.caption li {
-		font-weight: 300;
+		font-weight: 100;
 		color: white;
 		font-size: 3vw;
 		text-transform: uppercase;
-		letter-spacing: .2vw;
+		letter-spacing: .3vw;
 		margin-left: 5px;
 	}
 
 	li .italic {
-		font-weight: 400;
+		font-weight: 300;
 		font-style: italic;
 	}
 
@@ -676,10 +696,9 @@ ul.tech-specs {
 		text-align: center;
 		letter-spacing: .3em;
 		text-transform: uppercase;
-		color: black;
+		color: rgba(55,55,55,.8);
 		font-size: 8vw;
 		padding-top: 0;
-		opacity: .4;
 		line-height: 1.2em;
 		margin-top: 0;
 	}
@@ -706,59 +725,36 @@ ul.tech-specs {
     background-position: center;
     background-repeat: no-repeat;
 		width: 100%;
-		height: 70vw;
+		height: 66%;
     margin-top: -100px;
 		overflow: hidden;
   }
 	
-	
-	.company-logo-grid {
-		padding: 0;
-		width: 80%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 10vw;
-		
+	.mobile-logo-grid {
+		text-align: center;
 	}
 	
-	.logo-grid {
-		display: -webkit-flex;
-		-webkit-align-items: center;
-		display: flex;
-		align-items: center;
-		width: 100%;
-		max-width: 650px;
-		margin: 0 auto;
-	}
 	
 	.mobile-col-sm-3 {
-		width: 25%;
-		height: 50px;
-		padding: 3vw;
-		display: -webkit-flex;
-		-webkit-align-items: center;
-		display: flex;
-		align-items: center;
+		margin-top: 40px;
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		width: 35%;
 	}
-	
+
 	.logo-grid img {
+		margin-right: auto;
+		margin-left: auto;
 		display: block;
-		width: 100%;
+		width: 66%;
 		height: auto;
-		opacity: .8;
 	}
 	
 	.skills-logo-grid {
-		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
 		margin-top: 10vw;
-	}
-	
-	.skills-logo-grid img {
-		display: block;
-		width: 100%;
-		height: auto;
 	}
 	
   .education-mobile {
@@ -934,7 +930,6 @@ ul.tech-specs {
 		background-color: #231f20;
 		font-family: 'Roboto', sans-serif;
     height: 100%;
-		font-size: 14px;
 	}
 
 	/* HEADER & MAIN NAV */
@@ -1025,7 +1020,7 @@ ul.tech-specs {
 		width: 100%;
 	}
 
-	#banner-logo img {
+	#sw-logo {
 		position: absolute;
 		top: 20px;
 		left: 20px;
@@ -1062,7 +1057,7 @@ ul.tech-specs {
 		align-items: center;
 		justify-content: center;
 		z-index: 1;
-		background-color: rgba(0,0,0, .5);
+		background-color: rgba(0,0,0, .25);
 	}
 	
 	.title img {
@@ -1131,7 +1126,7 @@ ul.tech-specs {
 	.main-content p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
-		font-size: 1.4em;
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
@@ -1453,10 +1448,14 @@ ul.tech-specs {
   #projects-header {
     height: 100px;
   }
+	
+	#mobile-menu-icon {
+		display: none;
+	}
   
   .projects-fullscreen-banner {
     transition: height 1s ease;
-    height: 530px;
+    height: 95%;
 		width: 100%;
     margin-top: -100px;
     background-image: url(../images/lens.jpg);
@@ -1466,10 +1465,12 @@ ul.tech-specs {
   }
 	
 	.banner-title {
+		position: absolute;
+		top: 0;
     transition: 1s ease;
 		padding: 0;
-		height: 530px;
-		margin-top: -530px;
+		height: 95%;
+		width: 100%;
 		background-color: rgba(0,0,0, .66);
 		display: -webkit-box;
 		display: -moz-box;
@@ -1505,7 +1506,7 @@ ul.tech-specs {
 	
 	
   section .thumbnail-row {
-		width: 90%;
+		width: 100%;
 		max-width: 1050px;
 		display: -webkit-flex;
 		display: flex;
@@ -1525,8 +1526,8 @@ ul.tech-specs {
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 33.33vw;
-		height: 25vw;
-		max-height: 300px;
+		height: 30vw;
+		max-height: 400px;
 		overflow: hidden;
 		transition: width 1s ease;
 	}
@@ -1605,21 +1606,20 @@ ul.tech-specs {
 		overflow: hidden;
 		padding: 10px;
 		list-style-type: none;
-		border: 2px solid white;
-		opacity: .6;
+		border: 1px solid white;
 	}
 
 	.caption li {
-		font-weight: 300;
+		font-weight: 100;
 		color: white;
 		text-transform: uppercase;
-		font-size: 1.25em;
+		font-size: 1em;
 		letter-spacing: .2vw;
 		margin-left: 3px;
 	}
 
 	li .italic {
-		font-weight: 400;
+		font-weight: 300;
 		font-style: italic;
 	}
 	
@@ -1678,7 +1678,7 @@ ul.tech-specs {
 	
 	.resume-fullscreen-banner {
     transition: height 1s ease;
-    height: 530px;
+    height: 95%;
 		width: 100%;
     margin-top: -100px;
     background-image: url(../images/samuel-beach.jpg);
@@ -1751,7 +1751,6 @@ ul.tech-specs {
 		display: block;
 		width: 100%;
 		height: auto;
-		opacity: .8;
 	}
 	
 	.skills-logo-grid {
@@ -1856,7 +1855,7 @@ ul.tech-specs {
   
   .about-fullscreen-banner {
     transition: height 1s ease;
-    height: 530px;
+    height: 95%;
 		width: 100%;
     margin-top: -100px;
     background-image: url(../images/work-station.jpg);
@@ -1945,112 +1944,5 @@ ul.tech-specs {
 		object-fit: contain;
 	}
 	
-}
-  
-/* MEDIUM SIZED DESKTOP SCREENS 992px - 1200px */
-
-@media only screen and (min-width: 992px) {
-  
-
-  .main-content {
-    vertical-align: middle;
-  }
-  
-  /*******************
-	********************
-	*** PROJECTS.HTML **
-	********************
-	********************/
-  
-  .banner-title {
-		padding: 0;
-		height: 630px;
-		margin-top: -630px;
-		background-color: rgba(0,0,0,.66);
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
- 
-  .projects-fullscreen-banner {
-    height: 630px;
-  }
-
-	/******************
-	*******************
-	*******************
-	*** RESUME.HTML *** 
-	*******************
-	*******************
-	*******************/
-
-  .resume-fullscreen-banner {
-    height: 630px;
-}
-  
-  /*******************
-	********************
-	********************
-	**** ABOUT.HTML ****
-	********************
-	********************
-	********************/
-  
-  .about-fullscreen-banner {
-    height: 630px;
-  }
-}
-
-/* LARGE SIZED DESKTOP SCREENS 1200px and above */
-
-@media only screen and (min-width: 1200px) {
-  
-  /*******************
-	********************
-	*** PROJECTS.HTML **
-	********************
-	********************/
-  
-  .banner-title {
-		padding: 0;
-		height: 730px;
-		margin-top: -730px;
-		background-color: rgba(0,0,0, .66);
-		display: flex;
-		align-items: center;
-		justify-content: center;	
-	}
-
-  .projects-fullscreen-banner {
-    height: 730px;
-  }
-
-	/******************
-	*******************
-	*******************
-	*** RESUME.HTML *** 
-	*******************
-	*******************
-	*******************/
-	
-	.resume-fullscreen-banner {
-    height: 730px;
-}
-  
-   /*******************
-	********************
-	********************
-	**** ABOUT.HTML ****
-	********************
-	********************
-	********************/
-  
-  .about-fullscreen-banner {
-    height: 730px;
-  }
 }
   
